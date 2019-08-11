@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -12,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #696969;
 }
 
 h1 {
@@ -21,9 +21,4 @@ h1 {
 h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 1rem;
-}
-
-p {
-  font-size: 2rem;
-  font-family: 'Arial', sans-serif;
 }
