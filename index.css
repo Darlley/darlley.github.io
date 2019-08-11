@@ -18,9 +18,11 @@ body {
 h1 {
   font-family: 'Ubuntu Mono';
 }
+
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
-img{
+
+img {
   border-radius: 50px;
 }
