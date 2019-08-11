@@ -23,6 +23,7 @@ body {
     background-color: #116B8B;
     margin-top: auto;
     margin-bottom: 20%;
+    display: flex;
 }
 
 
