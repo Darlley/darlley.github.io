@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
 html, body {
@@ -19,7 +19,7 @@ h1 {
   font-family: 'Ubuntu Mono';
 }
 h2 {
-  font-family: 'Dancing Script';
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 img{
   border-radius: 20px;
