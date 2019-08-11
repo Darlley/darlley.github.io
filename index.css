@@ -16,14 +16,12 @@ body {
 }
 
 .mensagem {
-  font-family: 'Ubuntu Mono';
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #C0C0C0;
-  
+    margin: auto;
+    border-color: #FFFFFF;
+    border-style: dashed;
+    padding: 1%;
+    background-color: #116B8B;
+    margin-top: 5%;
 }
 
 
