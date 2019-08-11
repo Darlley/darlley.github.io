@@ -12,7 +12,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #696969;
-  COLOR: #ffffff
+  color: #ffffff
 }
 
 h1 {
@@ -20,4 +20,7 @@ h1 {
 }
 h2 {
   font-family: 'Dancing Script', cursive;
+}
+img{
+  border-radius: 20px;
 }
