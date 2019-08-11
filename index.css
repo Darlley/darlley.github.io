@@ -36,12 +36,12 @@ body {
     /* visual do link */
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 1px solid #A9A9A9;
+    border-bottom: 3px solid #A9A9A9;
 }
 #menu ul li a:hover {
     background-color:#696969;
     color: #ffffff;
-    border-bottom:3px solid #FFA500;
+    border-bottom: solid #FFA500;
 }
 
 
