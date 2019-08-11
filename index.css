@@ -15,9 +15,17 @@ body {
   color: #ffffff
 }
 
-h1 {
+.mensagem {
   font-family: 'Ubuntu Mono';
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #C0C0C0;
+  
 }
+
 
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
