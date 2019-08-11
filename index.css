@@ -4,26 +4,50 @@
 html, body {
   height: 100%;
 }
-
 body {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #367588;
-  color: #ffffff
+  background-color: #ffffff;
+  color: #000000
 }
 
+
+
+
+#menu ul {
+    padding: 0px;
+    background-color: #A9A9A9;
+    list-style: none;
+}
+#menu ul li {
+  display: inline;
+}
+#menu ul li a {
+    padding: 10px 15px;
+    display: inline-block;
+  
+
+    /* visual do link */
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #A9A9A9;
+}
+#menu ul li a:hover {
+    background-color:#696969;
+    color: #ffffff;
+    border-bottom:3px solid #FFA500;
+}
+
+
+
+
 .mensagem {
-    margin: auto;
-    border-color: #FFFFFF;
-    border-style: dashed;
-    padding: 1%;
-    background-color: #116B8B;
-    margin-top: auto;
-    margin-bottom: 20%;
-    display: flex;
+    color: #696969;
+    margin: 0px;
+    padding: 0px;
 }
 
 
