@@ -16,7 +16,10 @@ body {
 
 
 
-
+#menu {
+    position: fixed;
+    top: 0%;
+}
 #menu ul {
     padding: 0px;
     background-color: #A9A9A9;
@@ -46,14 +49,19 @@ body {
 
 .mensagem {
     color: #696969;
-    margin: 0px;
-    padding: 0px;
+    position: fixed;
+    top: 0%;
 }
+
+
 
 
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
+
 
 img {
   border-radius: 50%;
