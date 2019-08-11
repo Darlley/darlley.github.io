@@ -16,10 +16,10 @@ body {
 }
 
 h1 {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Ubuntu Mono';
 }
 h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script';
 }
 img{
   border-radius: 20px;
