@@ -1,71 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
-html, body {
-  height: 100%;
-}
+
 body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #ffffff;
-  color: #000000
-}
-
-
-
-#menu {
-    position: fixed;
-    top: 3.5em;
-}
-#menu ul {
-    padding: 0px;
-    background-color: #A9A9A9;
-    list-style: none;
-}
-#menu ul li {
-  display: inline;
-}
-#menu ul li a {
-    padding: 10px 15px;
-    display: inline-block;
-  
-
-    /* visual do link */
-    color: #ffffff;
-    text-decoration: none;
-    border-bottom: 3px solid #A9A9A9;
-}
-#menu ul li a:hover {
-    background-color:#696969;
-    color: #ffffff;
-    border-bottom: solid #FFA500;
-}
-
-
-
-
-.mensagem {
-    color: #696969;
-    position: fixed;
-    top: 1em;
-}
-.olamundo {
-  color: #FFA500;
-}
-
-
-
-
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-
-
-
-img {
-  border-radius: 50%;
+	font-family: "Open Sans", Helvetica, Arial;
 }
