@@ -7,3 +7,4 @@ Foi seguido o modelo do [Estevan Maito](https://www.youtube.com/watch?v=014fy8sG
 Para o desenvolvimento foi utilizado:
 1. Normalize: https://necolas.github.io/normalize.css/
 1. Bootstrap: https://getbootstrap.com/
+1. Autoprefixer CSS: https://autoprefixer.github.io/
