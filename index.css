@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap');
 
 body {
 	font-family: "Open Sans", Helvetica, Arial;
 	color: #4d4d4d;
+		background-size: 100%;
+	background-image: url("http://a.scpr.org/i/28e28761d7f03244c282769dee757e5b/75908-full.jpg");
 }
 
 
@@ -20,14 +22,13 @@ h1, h2, h3 {
 
 
 #sobre, #servicos, #portfolio, #contato{
-	padding: 1em;
-	background-image: url("http://a.scpr.org/i/28e28761d7f03244c282769dee757e5b/75908-full.jpg");
+	padding: 5em;
 	padding-top: 0em;
 	background-size: 100%;
 }
 .borda {
 	background-color: #ffffff;
-	padding: 10em;
+	padding: 5em;
 	border:1px solid #FF8C00;
 }
 
@@ -38,17 +39,27 @@ nav {
   padding: 1em;
   text-align: center;
   align-items: center;
-  background-color: #1C1C1C;
+  background-color: #ffffff;
   width: 100%;
+  font-family: "Ubuntu Mono";
 }
 nav > a {
   text-decoration: none;
-  color: #ffffff;
+  color: #222222;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 1em;
+}
+nav > a:hover {
+  text-decoration: none;
   font-weight: 700;
   font-size: 1em;
   font-family: "Ubuntu Mono";
   padding: 1em;
+  background-color:#222222;
+  color: #ffffff;
 }
+
 nav ul {
   list-style: none;
   padding:1em;
@@ -63,12 +74,12 @@ list-style: none;
 }
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #222222;
   padding: 1em 1em;
 }
 nav ul li a:hover {
-    background-color:#ffffff;
-    color: #222222;
+    background-color:#222222;
+    color: #ffffff;
     border-bottom:3px solid #FF8C00;
     text-decoration: none;
 }
@@ -76,14 +87,21 @@ nav ul li a:hover {
 
 
 
+.olamundo {
+	background-color: #FF8C00;
+	padding: 0.5%;
+}
 header {
-	background-size: 100%;
-	background-image: url("http://a.scpr.org/i/28e28761d7f03244c282769dee757e5b/75908-full.jpg");
 	color: #ffffff;
 	text-align: center;
-	padding: 10em;
+	padding: 10%;
 	text-align: center;
  	align-items: center;
+	display: flex;
+	font-family: 'Lexend Zetta', sans-serif;
+}
+header > img {
+	padding: 5%;
 }
 
 
