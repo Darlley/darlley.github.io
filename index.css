@@ -4,6 +4,40 @@
 
 body {
 	font-family: "Open Sans", Helvetica, Arial;
+	color: #4d4d4d;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: "Open Sans", Helvetica, Arial;
+	font-weight:700;
+}
+
+nav {
+  padding: 1em;
+  text-align: center;
+  align-items: center;
+  background-color: #4d4d4d;
+}
+nav > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: "Ubuntu Mono";
+  padding: 1em;
+}
+nav ul {
+  list-style: none;
+  padding: 0.5em;
+  width: 100%;
+}
+li {
+  display: inline;
+  align-items: center;
+  padding: 0.5em;
+  text-decoration: none;
+  
 }
 
 header {
@@ -13,4 +47,3 @@ header {
 	color: #ffffff;
 	text-align: center;
 }
-
