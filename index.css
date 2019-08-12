@@ -5,3 +5,12 @@
 body {
 	font-family: "Open Sans", Helvetica, Arial;
 }
+
+header {
+	background-size: 100%;
+	background-image: url("http://a.scpr.org/i/28e28761d7f03244c282769dee757e5b/75908-full.jpg");
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center;
+}
+
