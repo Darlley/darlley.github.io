@@ -106,4 +106,15 @@ header > p {
 #servicos, #portfolio, #contato { 
 	text-align: center;
  	align-items: center;
+	height: 100%;
+	padding: 1em;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+servicos {
+	
+	background-image: url(imagens/acordo.jpg);
+	
 }
