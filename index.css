@@ -120,7 +120,7 @@ header > p {
 #sobre > .background{
 	background-image: url(imagens/sobre.jpg);
 }
-background {
+.background {
 	height: 100%;
 	padding: 1em;
 	background-repeat: no-repeat;
