@@ -108,16 +108,16 @@ header > p {
  	align-items: center;
 }
 
-#servicos > .background{
+.servicos{
 	background-image: url(imagens/acordo.jpg);
 }
-#portfolio > .background{
+.portfolio {
 	background-image: url(imagens/leitura.jpg);
 }
-#contato > .background{
+.contato {
 	background-image: url(imagens/contato.jpg);
 }
-#sobre > .background{
+.sobre {
 	background-image: url(imagens/sobre.jpg);
 }
 .background {
