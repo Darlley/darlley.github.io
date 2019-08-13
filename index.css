@@ -4,35 +4,22 @@
 
 body {
 	font-family: "Open Sans", Helvetica, Arial;
-	color: #4d4d4d;
-		background-size: 100%;
-	background-image: url("http://a.scpr.org/i/28e28761d7f03244c282769dee757e5b/75908-full.jpg");
 }
-
-
-
 
 h1, h2, h3 {
 	margin: 0;
 	font-family: "Open Sans", Helvetica, Arial;
 	font-weight:700;
+	padding: 1em;
 }
-
-
 
 
 #sobre, #servicos, #portfolio, #contato{
 	padding: 5em;
 	padding-top: 0em;
-	background-size: 100%;
+	color: #ffffff;
+	background-color: #000000;
 }
-.borda {
-	background-color: #ffffff;
-	padding: 5em;
-	border:1px solid #FF8C00;
-}
-
-
 
 
 nav {
@@ -59,7 +46,6 @@ nav > a:hover {
   background-color:#222222;
   color: #ffffff;
 }
-
 nav ul {
   list-style: none;
   padding:1em;
@@ -91,17 +77,27 @@ nav ul li a:hover {
 	background-color: #FF8C00;
 	padding: 0.5%;
 }
+
+
+
+
 header {
-	color: #ffffff;
 	text-align: center;
-	padding: 10%;
-	text-align: center;
- 	align-items: center;
-	display: flex;
 	font-family: 'Lexend Zetta', sans-serif;
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 105%;
+	background-image: url(./img1.jpg); 
+	height: 100%;
+	padding: 1em;
 }
+
 header > img {
-	padding: 5%;
+    	padding: 2em;
+}
+header > p {
+	padding: 2em;
 }
 
 
