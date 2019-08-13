@@ -107,6 +107,10 @@ header > p {
 	text-align: center;
  	align-items: center;
 }
+
+#servicos > .background{
+	background-image: url(imagens/acordo.jpg);
+}
 background {
 	height: 100%;
 	padding: 1em;
