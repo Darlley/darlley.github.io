@@ -111,6 +111,15 @@ header > p {
 #servicos > .background{
 	background-image: url(imagens/acordo.jpg);
 }
+#portfolio > .background{
+	background-image: url(imagens/leitura.jpg);
+}
+#contato > .background{
+	background-image: url(imagens/contato.jpg);
+}
+#sobre > .background{
+	background-image: url(imagens/sobre.jpg);
+}
 background {
 	height: 100%;
 	padding: 1em;
