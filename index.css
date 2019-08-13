@@ -88,7 +88,7 @@ header {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 105%;
-	background-image: url(./img1.jpg); 
+	background-image: url(imagens/img1.jpg); 
 	height: 100%;
 	padding: 1em;
 }
