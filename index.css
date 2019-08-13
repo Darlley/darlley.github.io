@@ -11,6 +11,8 @@ h1, h2, h3 {
 	font-family: "Open Sans", Helvetica, Arial;
 	font-weight:700;
 	padding: 1em;
+	text-align: center;
+  	align-items: center;
 }
 
 
