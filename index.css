@@ -34,6 +34,13 @@ h2{
   background-position:center;
 }
 
+/*IMAGENS*/
+.trabalhos {
+    width: 80%
+}
+.certificados {
+    width: 100%;
+}
 
 /*MENSAGEM SUBLINHADA (LARANJA)*/
 .olamundo {
@@ -189,16 +196,21 @@ header > p {
     border-bottom:3px solid #FF8C00;
     text-decoration: none;
   }
-
-
-
-  /*IMAGENS*/
-  .trabalhos {
-    width: 80%
+  
+  header {
+    height: 85vh;
   }
-  .certificados {
-    width: 100%;
+  header > img {
+    width: 50%; 
+    border-radius: 50%;
+    padding: 1em;
   }
+  header > p {
+    padding: 1em;
+  }
+
+  
+
 
 
   /*SESSÕES*/
