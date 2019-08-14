@@ -141,7 +141,11 @@ header > p {
   width: 50%;
 }
 
-
+#sobre {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5em;
+}
 
 
 /*
@@ -210,7 +214,7 @@ header > p {
     padding: 1em;
   }
 
-  #sobre, #servicos, #portfolio, #contato { 
+  #servicos, #portfolio, #contato { 
     text-align: center;
     align-items: center;
     background-color: #000000;
