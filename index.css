@@ -146,6 +146,9 @@ header > p {
   color: #ffffff;
   padding: 5em;
 }
+#sobre > li{
+  list-style: none;
+}
 
 
 /*
