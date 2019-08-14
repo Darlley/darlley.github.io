@@ -113,6 +113,7 @@ header > img {
 header > p {
   padding: 0.5em;
 }
+
 #servicos div {
   display: flex;
   flex-direction: column;
@@ -120,6 +121,7 @@ header > p {
   text-align: center;
   margin-top: 2em;
 }
+
 #portfolio{
   display: flex;
   flex-direction: column;
@@ -132,12 +134,11 @@ header > p {
 #portfolio div {
   padding-top: 2em;
 }
+
 #contato {
   display: flex;
   flex-direction: column;
-
 }
-
 #contato img{
   width: 50%;
 }
@@ -151,6 +152,8 @@ header > p {
 
 
 @media screen and (min-width: 711px){
+  
+  /*MENU NAVEGAÇÃO*/
   nav {
     padding: 1em;
     text-align: center;
@@ -198,6 +201,7 @@ header > p {
     text-decoration: none;
   }
   
+  /*SESSÕES*/
   header {
     height: 85vh;
   }
@@ -210,9 +214,6 @@ header > p {
     padding: 1em;
   }
 
-
-
-  /*SESSÕES*/
   #sobre, #servicos, #portfolio, #contato { 
     text-align: center;
     align-items: center;
