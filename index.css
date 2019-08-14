@@ -26,6 +26,7 @@ h2{
 #sobre, #servicos, #portfolio, #contato{
   color: #ffffff;
 }
+
 .background {
   padding: 1em;
   background-repeat: no-repeat;
@@ -209,16 +210,14 @@ header > p {
     padding: 1em;
   }
 
-  
-
 
 
   /*SESSÕES*/
-  #servicos, #portfolio, #contato { 
+  #sobre, #servicos, #portfolio, #contato { 
     text-align: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     padding-top: 5em;
   }
   
