@@ -206,8 +206,6 @@ header > p {
     height: 85vh;
   }
   header > img {
-    width: 40%; 
-    border-radius: 50%;
     padding: 1em;
   }
   header > p {
