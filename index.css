@@ -26,14 +26,14 @@ h2{
 #sobre, #servicos, #portfolio, #contato{
   color: #ffffff;
 }
-
 .background {
   padding: 1em;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 250%;
+  background-size: 280%;
   background-position:center;
 }
+
 
 /*IMAGENS*/
 .trabalhos {
@@ -103,15 +103,18 @@ header {
   color: #ffffff;
   background-image: url("https://github.com/Darlley/darlley.github.io/blob/master/imagens/img1.jpg?raw=true");
   margin: 0em;
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  font-size: 1em;
 }
 header > img {
   width: 40%; 
   border-radius: 50%;
+  margin-top: 2em;
 }
 header > p {
-  padding: 0.5em;
+    margin: 2em;
+    padding: 1em;
 }
 
 #servicos div {
@@ -157,6 +160,10 @@ header > p {
 
 
 @media screen and (min-width: 711px){
+  /*GERAL*/
+  .background {
+    background-size: 250%;
+  }
   
   /*MENU NAVEGAÇÃO*/
   nav {
@@ -212,9 +219,12 @@ header > p {
   }
   header > img {
     padding: 1em;
+    margin-top: 0em;
+    
   }
   header > p {
     padding: 1em;
+    margin: 0em;
   }
 
   #servicos, #portfolio, #contato { 
