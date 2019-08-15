@@ -11,7 +11,6 @@ M O B I L E  F I R S T
 /*GERAL*/
 body {
   font-family: "Open Sans", Helvetica, Arial;
-  background-color: black;
 }
 h1, h2, h3 {
   font-family: "Open Sans", Helvetica, Arial;
@@ -20,8 +19,8 @@ h1, h2, h3 {
   text-align: center;
   align-items: center;
 }
-h2{
-  padding-bottom: 1em;
+h2, h3 {
+  padding: 1em 0em 1em 0em;
 }
 #sobre, #servicos, #portfolio, #contato{
   color: #ffffff;
@@ -37,10 +36,12 @@ h2{
 
 /*IMAGENS*/
 .trabalhos {
-    width: 80%
+  width: 80%
 }
 .certificados {
-    width: 100%;
+  width: 100%;
+  border-style:solid;
+  border-color: #FF8C00; 
 }
 
 /*MENSAGEM SUBLINHADA (LARANJA)*/
@@ -67,7 +68,6 @@ nav > a {
   font-size: 1em;
   padding: 0.5em;
   font-family: "Ubuntu Mono";
-  
 }
 nav ul {
   text-decoration: none;
@@ -110,52 +110,98 @@ header {
 header > img {
   width: 40%; 
   border-radius: 50%;
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 header > p {
-    margin: 2em;
-    padding: 1em;
+  font-size: 1em;
 }
 
+#servicos {
+  background-color: #000000;
+  align-items: center;
+  text-align: center;
+}
 #servicos div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   margin-top: 2em;
 }
 
 #portfolio{
   align-items: center;
   text-align: center;
+  background-color: #000000;
 }
 #portfolio h4 {
   padding: 1em;
 }
 #portfolio div {
-  padding-top: 2em;
+  padding: 2em 0em 2em 0em;
 }
 
 #contato {
   display: flex;
   flex-direction: column;
+  background-color: #000000;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url("https://image.freepik.com/fotos-gratis/design-de-plano-de-fundo-texturizado-simples-preto_53876-63595.jpg");
 }
 #contato img{
   width: 50%;
 }
-
-#sobre {
-  background-color: #000000;
+#contato a{
+  text-decoration: none;
   color: #ffffff;
-  padding: 5em;
+}
+.formulario:hover{
+  color: #00c35b;
+}
+
+#sobre{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+  margin: 0em;
+  background-color: #000000;
+}
+#sobre div{
+  display: flex;
+  flex-direction: column;
+}
+#sobre h1{
+  padding: 2em 0em 0em 0em;
+  font-size: 2em;
+}
+#sobre h2, h3, h4{
+  padding: 1em;
+  text-align: center;
+}
+#sobre p{
+  padding: 1em;
 }
 #sobre > li{
   list-style: none;
 }
 
 
+footer{
+  text-align: center;
+  height: 2.1em;
+  margin: 1em 0em 0em 0em;
+  display: flex;
+  flex-direction: column;
+}
+footer > p {
+  font-family: "Ubuntu Mono";
+  font-size: 12px;
+}
+
 /*
- D E S K T O P
+D E S K T O P
 */
 
 
@@ -164,7 +210,7 @@ header > p {
   .background {
     background-size: 250%;
   }
-  
+
   /*MENU NAVEGAÇÃO*/
   nav {
     padding: 1em;
@@ -212,7 +258,7 @@ header > p {
     border-bottom:3px solid #FF8C00;
     text-decoration: none;
   }
-  
+
   /*SESSÕES*/
   header {
     height: 85vh;
@@ -220,7 +266,7 @@ header > p {
   header > img {
     padding: 1em;
     margin-top: 0em;
-    
+
   }
   header > p {
     padding: 1em;
@@ -234,5 +280,5 @@ header > p {
     color: #ffffff;
     padding-top: 5em;
   }
-  
+
 }
