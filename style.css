@@ -97,6 +97,107 @@ header {
 }
 header p{
 	margin-bottom: 2em;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap');
+
+/*
+	M O B I L E  F I R S T
+*/
+
+
+/*
+	G E R A L
+*/
+
+*{
+	
+}
+
+html, body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	color: #000000;
+	background-color: #000000;
+}
+h1, h2, h3 {
+	margin: 0;
+	font-family: "Ubuntu Mono", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	padding-top: 2em;
+}
+.olamundo { /*SUBLINHADO LARANJA*/
+	background-color: #FF8C00;
+	padding: 5px;
+}
+
+/*
+	M E N U  N A V E G A Ç Ã O
+*/
+nav {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+nav > a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: 700;
+	font-size: 40px;
+	font-family: "Ubuntu Mono", Helvetica, Arial, sans-serif;
+	padding-top: 0.5em;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 0em;
+}
+nav ul:hover {
+	width: 100%;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 13px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #000000;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+nav ul li {
+	text-align: center;	
+	width: 100%;
+	padding: 2px;
+}
+nav ul li:hover {
+	background-color:#000000;
+ 	border-bottom: 2px solid #FF8C00;
+	padding: 1px;
+}
+
+
+
+/*
+	C A B E Ç A L H O
+*/
+header {
+	background: url("imagens/header.jpg") no-repeat center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+header p{
+	margin-bottom: 2em;
 }
 header img {
 	width: 40%;
@@ -170,12 +271,9 @@ header img {
   flex-direction: column;
   color: #ffffff;
   background-color: rgb(0, 22, 40);
-padding: 2em;
+  padding: 2em;
 }
-#sobre > h2{
-  align-items: center;
-  text-align: center;
-}
+
 
 #sobre p{
   padding: 1em;
@@ -186,4 +284,13 @@ padding: 2em;
 .sessao {
 	border-bottom: 2px solid #ffffff;
 	padding-bottom: 5em;
+}
+.indice ul li{
+	list-style: none;
+}
+.indice ul li a{
+	text-decoration: none;
+}
+.certificados {
+	width: 100%;
 }
