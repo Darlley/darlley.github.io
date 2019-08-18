@@ -24,11 +24,20 @@ h1, h2, h3 {
 	margin: 0;
 	font-family: "Ubuntu Mono", Helvetica, Arial, sans-serif;
 	font-weight: 700;
-	padding-top: 2em;
 }
 .olamundo { /*SUBLINHADO LARANJA*/
 	background-color: #FF8C00;
-	padding: 5px;
+	padding: 2px;
+}
+.divisor-black {
+    border-bottom: 1px solid #000000;
+    width: 50%;
+    margin-top: 3em;
+}
+.divisor-white {
+    border-bottom: 1px solid #ffffff;
+    width: 50%;
+    margin-top: 3em;
 }
 
 /*
@@ -90,20 +99,25 @@ nav ul li:hover {
 header {
 	background: url("imagens/header.jpg") no-repeat center;
 	background-size: cover;
-	display: flex;
-	flex-direction: column;
 	color: #ffffff;
-	align-items: center;
 	text-align: center;
-	padding: 20px;
+	align-items: center;
+	padding: 1em;
+	height: 60vh;
+}
+header h1 {
+	padding: 0 0 1em 0;
 }
 header p{
 	margin-bottom: 2em;
 }
 header img {
-	width: 40%;
-	border-radius: 50%;
-	padding: 20px;
+    width: 50%;
+    border-radius: 50%;
+    padding: .5em;
+}
+.msg-boasvindas{
+	padding: 0 .5em 0 .5em;
 }
 
 
@@ -117,7 +131,14 @@ header img {
 	color: #000000;
 	align-items: center;
 	text-align: center;
-	padding: 20px;
+	padding: 5%;
+}
+#servicos a {
+	text-decoration: none;
+	color: #ff8c00;
+}
+#servicos h2 {
+	padding: 2em 0 2em 0;
 }
 
 
@@ -133,15 +154,22 @@ header img {
 	text-align: center;
 	padding: 20px;
 }
+#portfolio a {
+	text-decoration: none;
+	color: #ff8c00;
+}
 .icon{
-	width: 50px;
-	padding: 0px 1em 0px 1em;
+	width: 10%;
+	padding: 0 1em 0 1em;
 }
 .container {
-	padding: 10px;
+	padding: .5em;
 }
 .box-icon {
-	padding: 10px;
+	    padding: 2em 0 2em 0;
+}
+.msg-certificado {
+	padding: 1em 1em;
 }
 
 /*
@@ -157,41 +185,89 @@ header img {
 	padding: 20px;
 }
 .icon-contato{
-	width: 100px;
+	width: 50%;
 }
 #contato p a{
 	text-decoration: none;
 	color: #ffffff;
 }
 
+#topo {
+	text-align: center;
+}
+#topo a {
+	text-decoration: none;
+    	color: rgb(8, 73, 125);
+}
+
 /*
 
 */
 #sobre{
-  display: flex;
-  flex-direction: column;
-  color: #ffffff;
-  background-color: rgb(0, 22, 40);
-  padding: 2em;
+    color: #ffffff;
+    background-color: rgb(0, 22, 40);
+    padding: 2em;
+    text-align: center;
 }
-
-
-#sobre p{
-  padding: 1em;
+#indice {
+    color: #ffffff;
+    background-color: rgb(0, 22, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
 }
-#sobre > li{
-  list-style: none;
-}
-.sessao {
-	border-bottom: 2px solid #ffffff;
-	padding-bottom: 5em;
-}
-.indice ul li{
+#indice ul li{
 	list-style: none;
 }
-.indice ul li a{
+#indice ul li a{
 	text-decoration: none;
+	color: #ff8c00;
+}
+#curriculo{
+    color: #ffffff;
+    background-color: rgb(0, 22, 40);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+#curriculo a {
+	text-decoration: none;
+	color: #ff8c00;
+}
+.aux-divisor {
+    margin: 0 0 0 30%;
+}
+
+#certificados {
+    color: #ffffff;
+    background-color: rgb(0, 22, 40);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    text-align: center;
 }
 .certificados {
 	width: 100%;
+}
+#memorial {
+    color: #ffffff;
+    background-color: rgb(0, 22, 40);
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em 0 2em;
+}
+#memorial a {
+    text-decoration: none;
+    color: #ff8c00;
+}
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+    font-family: "Ubuntu Mono";
+    font-size: 12px;
 }
