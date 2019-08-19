@@ -271,3 +271,49 @@ footer {
     font-family: "Ubuntu Mono";
     font-size: 12px;
 }
+
+
+
+
+/*
+	D E S K T O P
+*/
+@media screen and (min-width: 729px) {
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+		height: auto;
+	}
+	nav ul {
+			flex-direction: row;
+	    	padding: 2%;
+    		width: 70%;
+	}
+	nav ul:hover {
+		width: 70%;
+	}
+	nav > a {
+		padding: .5em;
+	}
+	nav ul li {
+		padding 10%;
+		margin: 0;
+	}
+
+	nav ul li a:hover {
+    		padding: 5%;
+	}
+
+	header {
+		background: url("imagens/header.jpg") no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+		height: 80vh;
+	}
+	header img {
+		width: 40%;
+	}
+	.icon {
+		width: 5%;
+	}
+}
