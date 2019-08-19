@@ -323,8 +323,8 @@ footer {
     		height: 85vh;
 	}
 	header img {
-    		width: 30%;
-    		padding: 5%;
+	    width: 20%;
+	    padding: 2%;
 	}
 	.icon {
 		width: 5%;
@@ -333,25 +333,25 @@ footer {
 		padding: 2em;
 	}
 	.msg-boasvindas {
-    		padding: 5% 20%;
+    		 padding: 2% 20%;
 	}
-	    #contato {
+	#contato {
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: flex-start;
 		max-width: 1000px;
 		margin: 0 auto;
-	    }
-	    #contato h2{
+	}
+	#contato h2{
 		text-align: center;
 		width: 100%;
-	    }
-	    #contato p{
+	}
+	#contato p{
 		text-align: center;
 		width: 100%;
-	    }
-	    #contato div{
+	}
+	#contato div{
 		flex-grow: 1;
 		flex-basis: 2px;
-	    }
+	}
 }
