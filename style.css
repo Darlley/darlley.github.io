@@ -312,6 +312,7 @@ footer {
 	nav ul li a{
 		text-align: center;
 		font-size: 15px;
+		padding: 0px;
 	}
 	nav ul li a:hover {
     		padding: 2px;
