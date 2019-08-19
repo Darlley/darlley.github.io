@@ -106,16 +106,12 @@ header {
 	height: 60vh;
 }
 header h1 {
-	padding: 0 0 1em 0;
-}
-header p{
-	margin-bottom: 2em;
 	font-size: 1em;
 }
 header img {
     width: 50%;
     border-radius: 50%;
-    padding: 5em;
+    padding: .5em;
 }
 .msg-boasvindas{
 	padding: 2em;
@@ -309,14 +305,20 @@ footer {
 
 	header {
 		background-attachment: fixed;
-		
-		height: auto;
+		height: 90vh;
 		margin: 0;
 	}
 	header img {
-		width: 35%;
+    		width: 40%;
+    		padding: 5%;
 	}
 	.icon {
 		width: 5%;
+	}
+	header h1 {
+		padding: 2em;
+	}
+	.msg-boasvindas {
+    		padding: 5% 20%;
 	}
 }
