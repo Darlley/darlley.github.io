@@ -28,12 +28,22 @@
     	</nav>
 
     <header id="menu" class="background">
-      <h1>OLÁ MUNDO</h1>
-      <img src="https://pbs.twimg.com/profile_images/1114653922134827009/FeoP8KVo_400x400.jpg" alt="minha imagem">
       <div class="msg-boasvindas">
-		<p><span class="olamundo">Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho.<br/>Meu nome é <b>Darlley Brasil de Brito Furtado</b> e a sua visita ou parceria é muito importante para mim!</span></p>
-      </div>	
+      	<h1>Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Darlley Brasil de Brito Furtado e a sua visita ou parceria é muito importante para mim!</h1>
+      </div>
+      <img src="https://pbs.twimg.com/profile_images/1114653922134827009/FeoP8KVo_400x400.jpg" alt="minha imagem">
     </header>
+    <script>
+	function typeWriter(elemento){
+  		const textoArray = elemento.innerHTML.split('');
+		elemento.innerHTML = '';
+  		textoArray.forEach((letra, i) => {
+   			setTimeout(() => elemento.innerHTML += letra, 75 * i)
+  		});
+	};
+	const titulo = document.querySelector('h1');
+	typeWriter(titulo);
+    </script>
 	    
 	
     <section id="servicos">
