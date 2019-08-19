@@ -335,4 +335,23 @@ footer {
 	.msg-boasvindas {
     		padding: 5% 20%;
 	}
+	    #contato {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	    }
+	    #contato h2{
+		text-align: center;
+		width: 100%;
+	    }
+	    #contato p{
+		text-align: center;
+		width: 100%;
+	    }
+	    #contato div{
+		flex-grow: 1;
+		flex-basis: 2px;
+	    }
 }
