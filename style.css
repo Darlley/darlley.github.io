@@ -18,7 +18,7 @@
 html, body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #000000;
-	background-color: #000000;
+	background-color: rgb(0, 22, 40);
 }
 h1, h2, h3 {
 	margin: 0;
@@ -176,7 +176,6 @@ header img {
 	C O N T A T O
 */
 #contato {
-	background-color: rgb(0, 22, 40);
 	display: flex;
 	flex-direction: column;
 	color: #ffffff;
