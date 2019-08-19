@@ -304,9 +304,9 @@ footer {
 	}
 
 	header {
-		background-attachment: fixed;
-		height: 90vh;
-		margin: 0;
+		background-size: cover;
+    		background-attachment: fixed;
+    		height: 85vh;
 	}
 	header img {
     		width: 40%;
