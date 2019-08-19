@@ -108,6 +108,20 @@ header {
 header h1 {
 	font-size: 1em;
 }
+header h1::after{
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .4s infinite;
+}
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
 header img {
     width: 50%;
     border-radius: 50%;
