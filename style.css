@@ -314,10 +314,6 @@ footer {
 		font-size: 15px;
 		padding: 0px;
 	}
-	nav ul li a:hover {
-    		padding: 2px;
-	}
-
 	header {
 		background-size: cover;
     		background-attachment: fixed;
