@@ -177,14 +177,6 @@ header p a {
 	text-align: center;
 	padding: 20px;
 }
-#portfolio-pg {
-	display: flex;
-	flex-direction: column;
-	color: #000000;
-	align-items: center;
-	text-align: center;
-	padding: 20px;
-}
 #portfolio a {
 	text-decoration: none;
 	color: #ff8c00;
