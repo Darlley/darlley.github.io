@@ -125,10 +125,14 @@ header h1::after{
 header img {
     width: 50%;
     border-radius: 50%;
-    padding: .5em;
+    padding: 0.5em;
+}
+header > a {
+    text-decoration: none;
+    color: #ff8c00;
 }
 .msg-boasvindas{
-	padding: 2em;
+    padding: .5em;
 }
 
 
