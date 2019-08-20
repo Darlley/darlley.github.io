@@ -127,7 +127,7 @@ header img {
     border-radius: 50%;
     padding: 0.5em;
 }
-header > a {
+header p a {
     text-decoration: none;
     color: #ff8c00;
 }
