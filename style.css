@@ -149,13 +149,13 @@ header p a {
 	padding: 5%;
 }
 #servicos-pg {
-	background-color: rgb(0, 22, 40);
-	display: flex;
-	flex-direction: column;
-	color: #000000;
-	align-items: center;
-	text-align: center;
-	padding: 5%;
+    background-color: rgb(0, 22, 40);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
 }
 #servicos a {
 	text-decoration: none;
@@ -271,6 +271,7 @@ header p a {
 }
 .certificados {
 	width: 100%;
+	border: 2px solid #fff;
 }
 #memorial {
     color: #ffffff;
@@ -345,6 +346,9 @@ footer {
 	.msg-boasvindas {
     		padding: 2% 20%;
     		font-size: 2em;
+	}
+	#memorial {
+		padding: 2em 10em;
 	}
 	#contato {
 		flex-direction: row;
