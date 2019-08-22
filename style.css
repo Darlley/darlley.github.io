@@ -313,7 +313,10 @@ footer {
 #blog article p {
 	text-align: left;
 }
-
+#blog a {
+	text-decoration: none;
+    	color: #f80;
+}
 
 
 /*
