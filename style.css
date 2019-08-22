@@ -293,7 +293,26 @@ footer {
     font-family: "Ubuntu Mono";
     font-size: 12px;
 }
-
+#blog {
+	padding: 2em;
+	color: #fff;
+    	text-align: center;	 
+}
+#blog a img{
+	width:50%;
+}
+#blog article {
+	border: 2px solid #f80;
+	padding: 2em;
+	background-color: #fff;
+    	color: #000;
+}
+#blog h4 {
+	font-size: 20px;
+}
+#blog article p {
+	text-align: left;
+}
 
 
 
@@ -368,5 +387,8 @@ footer {
 	#contato div{
 		flex-grow: 1;
 		flex-basis: 2px;
+	}
+	#blog{
+		padding: 2em 10em;
 	}
 }
