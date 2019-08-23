@@ -86,7 +86,7 @@ nav ul li {
 	padding: 2px;
 }
 nav ul li:hover {
-	background-color:#000000;
+	background-color: #001628;
  	border-bottom: 2px solid #FF8C00;
 	padding: 1px;
 }
@@ -341,14 +341,6 @@ footer {
 	       	font-size: 15px;
 		padding: 1em;
 		width: 10%; 
-	}
-	nav ul li {
-		padding: 2px 2px;
-	}
-	nav ul li a{
-		text-align: center;
-		font-size: 15px;
-		padding: 2px;
 	}
 	header {
 		background-size: cover;
