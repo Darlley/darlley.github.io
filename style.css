@@ -97,7 +97,7 @@ nav ul li:hover {
 	C A B E Ç A L H O
 */
 header {
-	background: url("imagens/header.jpg") no-repeat center;
+	background: url("https://github.com/Darlley/darlley.github.io/blob/master/imagens/header.jpg?raw=true") no-repeat center;
 	background-size: cover;
 	color: #ffffff;
 	text-align: center;
@@ -157,10 +157,7 @@ header p a {
     text-align: center;
     padding: 2em;
 }
-#servicos a {
-	text-decoration: none;
-	color: #ff8c00;
-}
+
 #servicos h2 {
 	padding: 2em 0 2em 0;
 }
@@ -178,10 +175,7 @@ header p a {
 	text-align: center;
 	padding: 20px;
 }
-#portfolio a {
-	text-decoration: none;
-	color: #ff8c00;
-}
+
 .icon{
 	width: 10%;
 	padding: 0 1em 0 1em;
@@ -224,7 +218,6 @@ header p a {
 }
 
 /*
-
 */
 #sobre{
     color: #ffffff;
