@@ -266,7 +266,10 @@ header p a {
     flex-direction: column;
     padding: 0 2em 0 2em;
 }
-
+#memorial p a{
+	text-decoration: none;
+	color: ff8c00;
+}
 footer {
     background-color: #ffffff;
     color: #000000;
@@ -347,6 +350,7 @@ footer {
 	#memorial {
 		padding: 2em 10em;
 	}
+
 	#contato {
 		flex-direction: row;
 		flex-wrap: wrap;
