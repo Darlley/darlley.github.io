@@ -102,7 +102,7 @@ header {
 	text-align: center;
 	align-items: center;
 	padding: 1em;
-	height: 60vh;
+	height: auto;
 }
 header h1 {
 	font-size: 1em;
