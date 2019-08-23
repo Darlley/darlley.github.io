@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-	<meta http-equiv="content-language" content="pt">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Darlley" lang="pt" content="Darlley Brasil de Brito Furtado">
-	<meta name=”description” content="Procurando um desenvolvedor web? Venha comigo, meu trabalho é minha paixão.”>
-	<link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico">
-        <title>Github Pages @Darlley</title>
-	<link rel="stylesheet" href="./normalize.css">
-	<link rel="stylesheet" href="./style.css">
-
-    </head>
-    <body>
-      
-      <!-- M E N U -->
-	
-	<nav>
-		<a href="#menu"><span class="olamundo">Hello World</span></a>
-		<ul>
-			<li><a href="./sobre.html">SOBRE MIM</a></li>
-			<li><a href="./servicos.html">MEUS TRABALHOS</a></li>
-			<li><a href="./portfolio.html">CONHECIMENTOS</a></li>
-			<li><a href="#contato">CONTATO</a></li>
-			<li><a href="./blog.html">BLOG</a></li>
+	<head>
+		<meta charset="utf-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+    		<title>Bootstrap exemplo</title>
+    		<link rel="stylesheet" href="estilo/normalize.css">
+		<link rel="stylesheet" href="estilo/style.css">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  	</head>
+  	<body>
+    
+		<ul class="nav nav-tabs">
+  			<li class="nav-item">
+    				<a class="nav-link active" href="#">HELLO WORLD</a>
+  			</li>
+  			<li class="nav-item dropdown">
+    				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MENU</a>
+    				<div class="dropdown-menu">
+      					<a class="dropdown-item" href="./sobre.html">Sobre mim</a>
+      					<a class="dropdown-item" href="./servicos.html">Meus trabalhos</a>
+      					<a class="dropdown-item" href="./portfolio.html">Conhecimentos</a>
+					<a class="dropdown-item" href="./blog.html">Blog</a>
+      					<div class="dropdown-divider"></div>
+      					<a class="dropdown-item" href="https://github.com/Darlley/darlley.github.io" target="_blank">Código do portfólio</a>
+    				</div>
+  			</li>
+  			<li class="nav-item">
+    				<a class="nav-link" href="https://github.com/Darlley" target="_blank">GITHUB</a>
+  			</li>
+	 	 	<li class="nav-item">	
+				<a class="nav-link" href="#contato">CONTATO</a>
+  			</li>
 		</ul>
-    	</nav>
 
-    <header id="menu" class="background">
+
+
+<header id="menu" class="background">
       <div class="msg-boasvindas">
       	<h1>Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Darlley e a sua visita ou parceria é muito importante para mim!</h1>
       </div>
       <img src="imagens/perfil.jpg" alt="minha imagem">
       <div style="padding: 1em;">
-	      <p><a class="btn btn-primary" href="./sobre.html"><b>VER MAIS</b></a></p>
+	      <p><a class="btn btn-primary" href="./sobre.html"><b>QUEM SOU EU</b></a></p>
       </div>
     </header>
     <script>
@@ -57,7 +69,6 @@
 	<div class="divisor-black"></div>
     </section>
     
-
     <section id="portfolio">
 	<h2>HABILIDADES E CONHECIMENTOS</h2>
 	<div class="container">
@@ -79,7 +90,6 @@
 	</div>
 	<p><a class="btn btn-primary" href="./portfolio.html"><b>VER MAIS</b></a></p>
     </section>
-
     <section id="contato">
 	<h2>CONTATO</h2>
       	<p>Entre em contato comigo</p>
@@ -100,6 +110,6 @@
     <footer>
       <p>Desenvolvido por <b>Darlley Brito</b>.</p>
     </footer>
-
     </body>
- </html>
+
+</html>
