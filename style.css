@@ -243,10 +243,6 @@ header p a {
     padding: 2em;
     align-items: center;
 }
-#curriculo a {
-	text-decoration: none;
-	color: #ff8c00;
-}
 
 #certificados {
     color: #000;
@@ -268,7 +264,7 @@ header p a {
 }
 #memorial p a{
 	text-decoration: none;
-	color: ff8c00;
+	color: #ff8c00;
 }
 footer {
     background-color: #ffffff;
