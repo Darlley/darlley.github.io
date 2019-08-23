@@ -97,7 +97,7 @@ nav ul li:hover {
 	C A B E Ç A L H O
 */
 header {
-	background: url("https://github.com/Darlley/darlley.github.io/blob/master/imagens/header.jpg?raw=true") no-repeat center;
+	background: url("imagens/header.jpg") no-repeat center;
 	background-size: cover;
 	color: #ffffff;
 	text-align: center;
