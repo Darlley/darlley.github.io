@@ -100,9 +100,8 @@ header {
 	background-size: cover;
 	color: #ffffff;
 	text-align: center;
-	align-items: center;
 	padding: 1em;
-	height: 85vh;
+	height: 95vh;
 }
 header h1 {
 	font-size: 1em;
@@ -122,17 +121,17 @@ header h1::after{
     }
 }
 header img {
-    width: 50%;
-    border-radius: 50%;
-    padding: 0.5em;
-    margin-top: 25%;
+	width: 50%;
+	border-radius: 50%;
+	padding: 0.5em;
+	margin: 2em 0 2em 0;
 }
 header p a {
-    text-decoration: none;
-    color: #ff8c00;
+	text-decoration: none;
+	color: #ff8c00;
 }
 .msg-boasvindas{
-    padding: .5em;
+	padding: 1em .5em;
 }
 
 
@@ -326,12 +325,10 @@ footer {
 		width: 10%; 
 	}
 	header {
-		background-size: cover;
-    		background-attachment: fixed;
-    		height: 85vh;
+		background-attachment: fixed;
 	}
 	header img {
-		width: 20%;
+		width: 30%;
 	    	padding: 2em;
 		margin: 0;
 	}
@@ -342,7 +339,7 @@ footer {
 		padding: 2em;
 	}
 	.msg-boasvindas {
-    		padding: 2% 20%;
+		padding: 0em 2em;
     		font-size: 2em;
 	}
 	#memorial {
