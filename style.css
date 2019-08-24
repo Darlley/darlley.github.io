@@ -333,6 +333,7 @@ footer {
 	header img {
 		width: 20%;
 	    	padding: 2em;
+		margin: 0;
 	}
 	.icon {
 		width: 10%;
