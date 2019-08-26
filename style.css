@@ -242,7 +242,7 @@ header div p {
 .artigo {
 	display: none;
 }
-.artigo p {
+#blog p {
 	text-align: left;
 }
 .artigo a {
