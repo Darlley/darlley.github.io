@@ -8,3 +8,4 @@ Para o desenvolvimento foi utilizado:
 1. Normalize: https://necolas.github.io/normalize.css/
 1. Bootstrap: https://getbootstrap.com/
 1. Autoprefixer CSS: https://autoprefixer.github.io/
+1. JQuery: https://jquery.com/
