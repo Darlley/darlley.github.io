@@ -232,18 +232,20 @@ header div p {
 	width: 100%;
 }
 #blog article {
-	border: 2px solid #f80;
 	padding: 2em;
 	background-color: #fff;
-    	color: #000;
+    color: #000;
 }
 #blog h4 {
 	font-size: 20px;
 }
-#blog article p {
+.artigo {
+	display: none;
+}
+.artigo p {
 	text-align: left;
 }
-#blog a {
+.artigo a {
 	text-decoration: none;
     	color: #f80;
 }
