@@ -240,10 +240,6 @@ header div p {
 #blog h4 {
 	font-size: 20px;
 }
-.artigos {
-	display: flex;
-	justify-content: center;
-}
 .artigo {
 	display: none;
 }
@@ -320,5 +316,12 @@ header div p {
 	*/
 	#blog{
 		padding: 2em 10em;
+	}
+	.artigos {
+		display: flex;
+		justify-content: center;
+	}
+	#blog article {
+		margin: .5em;
 	}
 }
