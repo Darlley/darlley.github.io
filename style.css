@@ -241,10 +241,11 @@ header div p {
 }
 .artigos {
 	display: flex;
-	justify-items: center;
+	justify-content: center;
 }
 .artigo {
 	display: none;
+	margin: .5em;
 }
 #blog p {
 	text-align: left;
