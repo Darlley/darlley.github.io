@@ -240,6 +240,10 @@ header div p {
 #blog h4 {
 	font-size: 20px;
 }
+.artigos {
+    display: flex;
+    flex-direction: column;
+}
 .artigo {
 	display: none;
 }
