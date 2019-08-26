@@ -236,6 +236,7 @@ header div p {
 	background-color: #fff;
     	color: #000;
 	margin: .5em;
+    	width: 95%;
 }
 #blog h4 {
 	font-size: 20px;
@@ -326,6 +327,7 @@ header div p {
 		justify-content: center;
 	}
 	#blog article {
-		margin: .5em;
+		margin: 1em;
+    		width: 40%;
 	}
 }
