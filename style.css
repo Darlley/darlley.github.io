@@ -234,7 +234,8 @@ header div p {
 #blog article {
 	padding: 2em;
 	background-color: #fff;
-    color: #000;
+    	color: #000;
+	margin: .5em;
 }
 #blog h4 {
 	font-size: 20px;
@@ -245,7 +246,6 @@ header div p {
 }
 .artigo {
 	display: none;
-	margin: .5em;
 }
 #blog p {
 	text-align: left;
