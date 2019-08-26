@@ -96,7 +96,10 @@
 							4. <a href="https://mauricio.github.io/2011/01/27/como-ser-chutado-de-uma-avaliacao-pra-uma-vaga-na-fase-de-curriculos.html">Como ser chutado de uma avaliação pra uma vaga na fase de currículos </a></br>
 							5. <a href="https://medium.com/clebertech/github-como-curr%C3%ADculo-e-vis%C3%A3o-geral-sobre-processos-seletivos-37a2ed3e1f09">Github como currículo e visão geral sobre processos seletivos</a></p>
 					</div>
-				    <button class="btn btn-outline-primary">Ler mais</button>
+				    	<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                            			<button class="abrir btn btn-outline-primary">Ler artigo</button>
+                            			<button class="fechar btn btn-outline-primary">Lido</button>
+                    			</div>
 				</article>	
 
 
@@ -112,7 +115,10 @@
 					<p id="ref">1. <a href="">Primeira referência</a></br>
 						2. <a href="">Segunda referência</a></p>
 				</div>
-                            <button class="btn btn-outline-primary">Ler mais</button>
+                            	<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                            		<button class="abrir btn btn-outline-primary">Ler artigo</button>
+                            		<button class="fechar btn btn-outline-primary">Lido</button>
+                    		</div>
     			</article>
 	
 			-->
@@ -122,10 +128,16 @@
 			<!--
 				Inspirado em: https://www.devmedia.com.br/normalizacao-e-desnormalizacao-de-dados/24345
 				Feito com: https://api.jquery.com/toggle/#toggle-display
+				Implementação, algoritmo de: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_show
 			-->
 			<script>
-				$( "button" ).click(function() {
-					$( ".artigo" ).toggle( "slow" );
+				$(document).ready(function(){
+				    $(".fechar").click(function(){
+					$(".artigo").hide();
+				    });
+				    $(".abrir").click(function(){
+					$(".artigo").show();
+				    });
 				});
 			</script>
 		</section>
