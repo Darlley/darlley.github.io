@@ -1,1 +1,0 @@
-### Imagens da página blog
