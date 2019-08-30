@@ -30,6 +30,10 @@ h1, h2, h3 {
     width: 20%;
     margin: 50px 0 25px 0;
 }
+.borda{
+	padding: 0 5%;
+}
+
 footer {
     background-color: #ffffff;
     color: #000000;
@@ -264,6 +268,12 @@ header div p {
 	D E S K T O P
 =====================		*/
 @media screen and (min-width: 729px) {
+	
+	// GERAL
+	.borda{
+		padding: 0 5%;
+	}
+	
 	/* index.html =====================	
 	M E N U  N A V E G A Ç Ã O
 	Feito com BOOTSTRAP v.4.3.1
