@@ -214,7 +214,6 @@ header div p {
     color: #000;
     display: flex;
     flex-direction: column;
-    padding: 2em;
     align-items: center;
     text-align: center;
 }
