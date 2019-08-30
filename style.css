@@ -166,6 +166,9 @@ header div p {
     flex-direction: column;
     padding: 0 2em 0 2em;
 }
+#memorial > img {
+	width: 100%;
+}
 #memorial p a{
 	text-decoration: none;
 	color: #ff8c00;
