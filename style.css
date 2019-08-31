@@ -179,12 +179,18 @@ header div p {
 		
 */
 #servicos-pg {
-    display: flex;
-    flex-direction: column;
-    color: #000;
-    align-items: center;
-    text-align: center;
-    padding: 2em;
+	display: flex;
+	flex-direction: column;
+	color: #000000;
+	align-items: center;
+	text-align: center;
+	padding: 1em;
+}
+#servicos-pg h1 {
+	padding: 1em 0em;
+}
+.card {
+	width: 100%;
 }
 
 
@@ -326,7 +332,9 @@ header div p {
 	/* servicos.html =====================
 		
 	*/
-	
+	.card {
+		width: 80%;
+	}
 	
 	/* portfolio.html =====================
 		
