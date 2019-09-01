@@ -191,6 +191,7 @@ header div p {
 }
 .card {
 	width: 100%;
+	margin: .5em;
 }
 
 
@@ -334,7 +335,6 @@ header div p {
 	*/
 	.card {
 		width: 40%;
-    		margin: .5em;
 	}
 	.desktop-display {
 		display: flex;
