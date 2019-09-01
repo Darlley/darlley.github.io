@@ -333,7 +333,8 @@ header div p {
 		
 	*/
 	.card {
-		width: 80%;
+		width: 40%;
+    		margin: .5em;
 	}
 	
 	/* portfolio.html =====================
