@@ -336,6 +336,10 @@ header div p {
 		width: 40%;
     		margin: .5em;
 	}
+	.desktop-display {
+		display: flex;
+		flex-direction: row;
+	}
 	
 	/* portfolio.html =====================
 		
