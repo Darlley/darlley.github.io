@@ -339,6 +339,7 @@ header div p {
 	.desktop-display {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
 	}
 	
 	/* portfolio.html =====================
