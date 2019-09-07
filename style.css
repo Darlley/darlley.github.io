@@ -33,6 +33,9 @@ h1, h2, h3 {
 .borda{
 	padding: 0 5%;
 }
+.mensagem {
+    width: 80%;
+}
 
 footer {
     background-color: #ffffff;
