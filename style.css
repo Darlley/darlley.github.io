@@ -34,7 +34,7 @@ h1, h2, h3 {
 	padding: 0 5%;
 }
 .mensagem {
-    width: 80%;
+    width: 75%;
 }
 
 footer {
@@ -284,6 +284,9 @@ header div p {
 	// GERAL
 	.borda{
 		padding: 0 5%;
+	}
+	.mensagem {
+	    width: 95%;
 	}
 	
 	/* index.html =====================	
