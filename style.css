@@ -63,7 +63,7 @@ header {
 	color: #ffffff;
 	text-align: center;
 	padding: 1em;
-	height: 90vh;
+	height: 100vh;
 }
 header h1 {
 	font-size: 1em;
@@ -299,8 +299,14 @@ header div p {
 	header {
 		background-attachment: fixed;
 	}
+	#menu{
+		width: 100%;
+		padding: 1em;
+		height: 100vh;
+		
+	}
 	header img {
-		width: 30%;
+		width: 50%;
 	    	padding: 2em;
 	}
 	
