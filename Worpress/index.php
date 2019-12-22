@@ -7,10 +7,10 @@
 		<meta name="Darlley" lang="pt" content="Darlley Brasil de Brito Furtado">
 		<meta name="description" content="Procurando alguém que construa sites ou blogs? Posso te ajudar, venha comigo!">
 		<link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
-		<title>Github Pages @Darlley</title>
+		<title><?php bloginfo('name'); ?></title>
 		
-		<link rel="stylesheet" href="./normalize.css">
-		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="<?php get_stylesheet_uri(); ?>/normalize.css">
+		<link rel="stylesheet" href="<?php get_stylesheet_uri(); ?>/style.css">
 											
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -75,22 +75,25 @@
 			    <a class="dropdown-item" href="https://www.instagram.com/darlleybbf/" target="_blank">Instagram</a>
 			  </div>
 			</div>
-
 	      </div>
 	      <div class="msg-boasvindas">
 			<h1>Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Darlley e a sua visita ou parceria é muito importante para mim!</h1>
 	      </div>
 	</header>
 	<script>
-	function typeWriter(elemento){
-  		const textoArray = elemento.innerHTML.split('');
-		elemento.innerHTML = '';
-  		textoArray.forEach((letra, i) => {
-   			setTimeout(() => elemento.innerHTML += letra, 75 * i)
-  		});
-	};
-	const titulo = document.querySelector('h1');
-	typeWriter(titulo);
+        function typeWriter(elemento){
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach(
+                (letra, i) => {
+                    setTimeout((
+
+                    ) => elemento.innerHTML += letra, 75 * i)
+                }
+            );
+        };
+        const titulo = document.querySelector('h1');
+        typeWriter(titulo);
     </script>
 	    
 	
@@ -124,7 +127,6 @@
 	<p><a class="btn btn-primary" href="./portfolio.html"><b>VER MAIS</b></a></p>
     </section>
     
-
     <footer>
       <p>Desenvolvido por <b>Darlley Brito</b>.</p>
     </footer>
