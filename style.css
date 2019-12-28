@@ -290,7 +290,7 @@ header div p {
 	background: #222 url(imagens/header.jpg) no-repeat center;
 	background-size: cover;
 	width: 100%;
-	height: 900px;
+	height: 90vh;
 }
 
 /*		=====================
@@ -337,7 +337,7 @@ header div p {
 	E  H A B I L I D A D E S */
 	.icon {
 		width: 10%;
-    		padding: .5em 1em;
+    	padding: .5em 1em;
 	}
 
 
