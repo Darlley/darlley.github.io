@@ -1,3 +1,12 @@
+/*
+	Theme Name: Darlley github.io
+	Theme URI: https://github.com/Darlley/darlley.github.io
+	Author: Darlley Brito
+	Author URI: darlley.github.io
+	Description: Tema para portfólio pessoal
+	Version: 1.0
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
@@ -62,8 +71,8 @@ header {
 	background-size: cover;
 	color: #ffffff;
 	text-align: center;
-	padding: 1em;
-	height: 100vh;
+	padding: 2em;
+	height: 90vh;
 }
 header h1 {
 	font-size: 1em;
@@ -156,18 +165,17 @@ header div p {
 
 
 /* sobre.html =====================
-		
+
 */
-#sobre{
-    color: #000;
-    padding: 2em;
-    text-align: center;
+#sobre {
+	padding: 2% 10%;
+	text-align: center;
 }
 #memorial {
     color: #000;
     display: flex;
     flex-direction: column;
-    padding: 0 2em 0 2em;
+    padding: 0 10%;
 }
 #memorial img {
 	width: 100%;
@@ -179,7 +187,7 @@ header div p {
 
 
 /* servicos.html =====================
-		
+
 */
 #servicos-pg {
 	display: flex;
@@ -199,7 +207,7 @@ header div p {
 
 
 /* portfolio.html =====================
-		
+
 */
 #indice {
     color: #000;
@@ -237,12 +245,12 @@ header div p {
 
 
 /* blog.html =====================
-		
+
 */
 #blog {
 	padding: 2em;
 	color: #000;
-    	text-align: center;	 
+    	text-align: center;
 }
 #blog a img{
 	width: 100%;
@@ -274,21 +282,30 @@ header div p {
         width: 95%;
 }
 
-
+#contato{
+	padding: 2% 10%;
+	text-align: center;
+}
+#formulario {
+	background: #222 url(imagens/header.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 900px;
+}
 
 /*		=====================
 	D E S K T O P
 =====================		*/
 @media screen and (min-width: 729px) {
-	
+
 	.borda{
-		padding: 0 5%;
+		padding: 0 15%;
 	}
 	.mensagem {
-	    width: 95%;
+	    width: 80%;
 	}
-	
-	/* index.html =====================	
+
+	/* index.html =====================
 	M E N U  N A V E G A Ç Ã O
 	Feito com BOOTSTRAP v.4.3.1
 
@@ -297,40 +314,35 @@ header div p {
 	*/
 	header {
 		background-attachment: fixed;
-	}
-	#menu{
-		width: 100%;
-		padding: 1em;
-		height: 100vh;
-		
+		height: 105vh;
 	}
 	header img {
-		width: 25%;
-	    	padding: 2em;
+		width: 20%;
+	    padding: 1em;
 	}
-	
+
 	header div p {
 		padding: 0em;
 	}
 	header h1 {
-		padding: 2em;
+		padding: .5em;
 		font-weight: 100;
 	}
 	.msg-boasvindas {
 		padding: 0em 2em;
-    		font-size: 2em;
+    	font-size: 2em;
 	}
-	
+
 	/* C O N H E C I M E N T O S
 	E  H A B I L I D A D E S */
 	.icon {
 		width: 10%;
     		padding: .5em 1em;
 	}
-	
-	
+
+
 	/* sobre.html =====================
-		
+
 	*/
 	#memorial {
 		padding: 2em 10em;
@@ -340,9 +352,9 @@ header div p {
 		margin-left: 25%;
 	}
 
-	
+
 	/* servicos.html =====================
-		
+
 	*/
 	.card {
 		width: 40%;
@@ -352,14 +364,14 @@ header div p {
 		flex-direction: row;
 		justify-content: center;
 	}
-	
+
 	/* portfolio.html =====================
-		
+
 	*/
-	
-	
+
+
 	/* blog.html =====================
-		
+
 	*/
 	#blog{
 		padding: 2em 10em;
