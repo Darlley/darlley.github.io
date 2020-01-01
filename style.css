@@ -335,9 +335,15 @@ header div p {
 
 	/* C O N H E C I M E N T O S
 	E  H A B I L I D A D E S */
-	.icon {
-		width: 10%;
-    	padding: .5em 1em;
+	.icon{
+		width: 80px;
+		margin: 0 2.5em;
+	}
+	.container {
+		padding: .5em;
+	}
+	.box-icon {
+			padding: 1.5em 0;
 	}
 
 
