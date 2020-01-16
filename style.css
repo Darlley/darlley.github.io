@@ -56,7 +56,9 @@ footer {
     font-size: 12px;
 }
 
-
+.navbar img {
+    width: 5%;
+}
 /* index.html =====================
 		SESSÕES
 
@@ -317,6 +319,9 @@ header div p {
 	    width: 80%;
 	}
 
+	.navbar img {
+    	width: 2%;
+	}
 	/* index.html =====================
 	M E N U  N A V E G A Ç Ã O
 	Feito com BOOTSTRAP v.4.3.1
