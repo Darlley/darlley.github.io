@@ -298,6 +298,18 @@ header div p {
 =====================		*/
 @media screen and (min-width: 729px) {
 
+	/* ANIMAÇÃO LAYOUT */
+	[data-anime]{
+		opacity: 0;
+		transform: translate3d(0, -20px, 0);
+	}
+	.anime{
+		opacity: 1;
+		transform: none;
+		transition: opacity 800ms, transform 800ms;
+	}
+
+	/* GERAL */
 	.borda{
 		padding: 0 15%;
 	}
@@ -389,4 +401,5 @@ header div p {
 	#blog article {
 		margin: 1em;
 	}
+
 }
