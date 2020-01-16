@@ -56,8 +56,11 @@ footer {
     font-size: 12px;
 }
 
-.navbar img {
-    width: 5%;
+.ssl {
+	width: 5%;
+}
+.ssl img {
+    width: 100%;
 }
 /* index.html =====================
 		SESSÕES
@@ -319,8 +322,11 @@ header div p {
 	    width: 80%;
 	}
 
-	.navbar img {
-    	width: 2%;
+	.ssl {
+		width: 2%;
+	}
+	.ssl img {
+    	width: 100%;
 	}
 	/* index.html =====================
 	M E N U  N A V E G A Ç Ã O
