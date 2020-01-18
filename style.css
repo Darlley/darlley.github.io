@@ -254,38 +254,46 @@ header div p {
 */
 #blog {
 	padding: 2em;
-	color: #000;
-    	text-align: center;
+    text-align: center;
 }
-#blog a img{
+#blog .wrapper .filosofia{
+	background-image: url(imagens/blog/categoria-filosofia.png);
+
+}
+#blog .wrapper .tecnologia{
+	background-image: url(imagens/blog/categoria-tecnologia.jpg);
+}
+
+#blog .wrapper .lista-itens{
 	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 50px;
+	background-color: #0016286b;
+	box-shadow: 0 2px 6px #001628;
+	color: #fff;
 }
-#blog article {
-	padding: 2em;
-	background-color: #fff;
-    	color: #000;
-	margin: .5em;
+.titulo-categoria::after{
+	content: "+";
+	display: block;
+	margin-right: 15px;
+	transition: transform .3s ease;
 }
-#blog h4 {
-	font-size: 20px;
-}
-.artigos {
-    display: flex;
-    flex-direction: column;
-}
-.artigo {
+.conteudo{
 	display: none;
 }
-#blog p {
-	text-align: left;
+.ativar {
+	display: none;
 }
-.artigo a {
-	text-decoration: none;
-    	color: #f80;
+.ativar:checked + .ativar-wrapper .conteudo {
+	display: inline-block;
 }
-.imagens-artigo {
-        width: 95%;
-}
+
+
+
+
+
+
 
 #contato{
 	padding: 2% 10%;
@@ -405,12 +413,27 @@ header div p {
 	#blog{
 		padding: 2em 10em;
 	}
-	.artigos {
-		display: flex;
-		justify-content: center;
+	#blog .wrapper .filosofia{
+		background-image: url(imagens/blog/categoria-filosofia.png);
+	
 	}
-	#blog article {
-		margin: 1em;
+	#blog .wrapper .tecnologia{
+		background-image: url(imagens/blog/categoria-tecnologia.jpg);
 	}
+	#blog .wrapper .lista-itens{
+		display: inline-block;
+		width: 40%;
+		margin: 0 5px;
+
+	}
+	.titulo-categoria{
+		cursor: pointer;
+		background: none;
+	}
+	.titulo-categoria::after{
+		float: left;
+	}
+
+
 
 }
