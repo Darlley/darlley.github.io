@@ -285,6 +285,9 @@ header div p {
 .ativar {
 	display: none;
 }
+.ativar:checked + .ativar-wrapper .titulo-categoria::after {
+	transform: rotate(45deg) scale(1.08);
+}
 .ativar:checked + .ativar-wrapper .conteudo {
 	display: inline-block;
 }
