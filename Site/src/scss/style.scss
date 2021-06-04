@@ -1,16 +1,6 @@
 // Importação do Bootstrap
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-@import url("node_modules/bootstrap/scss/bootstrap.scss");
-
-// Declaração das variáveis
-$primary: #dc6a00;
-$secundary: #0e0e0e;
-
-$white: #fff;
-$light-gray: #ced4da;
-$dark-gray: #6c757d;
-
-$body-bg: $secundary;
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // ESPAÇAMENTO
 .container-fluid{
@@ -24,10 +14,9 @@ $body-bg: $secundary;
 
 // ICONS
 .bi:hover{
-    color: $white;
+    color: $bg-dark;
 }
 
-.dropdown-item:hover{
-    background-color: #0e0e0e;
-    color: $white;
+.active{
+    background-color: $gray-400 !important;
 }
