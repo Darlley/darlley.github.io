@@ -16,12 +16,19 @@
     
     <div class="container-fluid">
 
-      <!-- MENU -->
+      <!-- MENU OK -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="./">
             <i class="bi-code-slash"></i> Darlley Brito</i>
           </a>
+
+          <!-- NAVEGAÇÃO INTERNA -->
+          <a class="link-scroll nav-link" href="#apresentacao">Apresentação <i class="bi bi-arrow-down-short"></i></a>
+          <a class="link-scroll nav-link" href="#habilidades">Habilidades <i class="bi bi-arrow-down-short"></i></a>
+          
+          <!-- FIM DA NAVEGAÇÃO INTERNA -->
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="bi-stack"></span>
           </button>
@@ -62,17 +69,101 @@
                   <li><a class="dropdown-item" href="https://github.com/Darlley/ExerciciosLivros#readme" target="_blank"><i class="bi-file-earmark-check"></i> Exercícios respondidos</i></a></li>
                 </ul>
               </li>
+            </ul>
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item disabled"><a class="nav-link" href="https://wa.me/+5567993328678?text=Olá! Vim pelo link em seu portfólio." target="_blank" tabindex="-1" aria-disabled="true"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
               <li class="nav-item disabled"><a class="nav-link" href="https://www.instagram.com/darlleybbf/" target="_blank" tabindex="-1" aria-disabled="true"><i class="bi bi-instagram" target="_blank"></i> Instagram</a></li>
               <li class="nav-item disabled"><a class="nav-link" href="https://www.facebook.com/darlley.brasil" target="_blank" tabindex="-1" aria-disabled="true"><i class="bi bi-facebook" target="_blank"></i> Facebook</a></li>
               <li class="nav-item disabled"><a class="nav-link" href="https://twitter.com/darlley_brito" target="_blank" tabindex="-1" aria-disabled="true"><i class="bi bi-twitter" target="_blank"></i> Twitter</a></li>
             </ul>
           </div>
+          
         </div>
       </nav> <!-- FIM DO MENU -->
 
-      <!-- OUTROS CONTEÚDOS -->
-      
+      <!-- CABEÇALHO -->
+      <header class="container-lg">
+        <div class="">
+          <img src="imagens/perfil.jpg">
+          
+          <div>
+            <div class="btn-group">
+              <button data-anime="2200" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                QUEM SOU
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./sobre.html">Biografia</a>
+                <a class="dropdown-item" href="./portfolio.html">Currículo</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.facebook.com/darlley.bbf" target="_blank">Facebook</a>
+                <a class="dropdown-item" href="https://twitter.com/darlley_brito" target="_blank">Twitter</a>
+                <a class="dropdown-item" href="https://www.instagram.com/darlleybbf/" target="_blank">Instagram</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="msg-boasvindas" data-anime="2600">
+            <h1>Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Darlley e a sua visita ou parceria é muito importante para mim!</h1>
+          </div>
+        </div>
+      </header>
+      <!-- FIM DO CABEÇALHO -->
+
+      <!-- SEÇÕES DO SITE -->
+      <section id="servicos" data-anime="3000">
+        <h2>O QUE JA FIZ</h2>
+          <a href="https://github.com/Darlley" target="_blank"><img src="https://img.icons8.com/clouds/2x/github.png" alt="configu rações"></a>
+        <p>Veja também o <i>desenvolvimento</i> de meus trabalhos em meus repositórios clicando sobre a imagem.</p>
+        <p style="padding: 1em;"><a class="btn btn-primary" href="./servicos.html"><b>VER MAIS</b></a></p>
+        <div class="divisor-black"></div>
+      </section>
+        
+      <section id="portfolio" data-anime="3400">
+        <h2>O QUE SEI FAZER</h2>
+        <div class="container">
+          <div class="box-icon">
+            <a href="https://darlley.github.io/Frontend/" target="_blank">
+              <img class="icon" src="imagens/icon-html.png" alt="Icon HTML">
+            </a>
+            <a href="https://darlley.github.io/Frontend/" target="_blank">
+              <img class="icon" src="imagens/icon-css.png" alt="Icon CSS">
+            </a>
+            <a href="https://darlley.github.io/Frontend/" target="_blank">
+              <img class="icon" src="imagens/icon-bstrap.png" alt="Icon BOOTSTRAP">
+            </a>
+          </div>
+          <div class="box-icon">
+            <a href="https://darlley.github.io/JavaScript/" target="_blank">
+              <img class="icon" src="imagens/icon-jswhite.png" alt="Icon JAVASCRIPT">
+            </a>
+            <img class="icon" src="imagens/icon-php.png" alt="Icon PHP">
+            <img class="icon" src="imagens/icon-wp.png" alt="Icon WORDPRESS">
+          </div>
+          <div  class="box-icon">
+            <a href="https://darlley.github.io/Java/" target="_blank">
+              <img class="icon" src="imagens/icon-java.png" alt="Icon JAVA">
+            </a>
+            <a href="https://github.com/Darlley/Java/tree/master/Disciplina%20de%20Paradigmas%20de%20Programa%C3%A7%C3%A3o" target="_blank">
+              <img class="icon" src="imagens/icon-mvc.png" alt="Icon MODEL VIEW CONTROLLER">
+            </a>
+            <a href="https://github.com/Darlley/Java/tree/master/Disciplina%20de%20Programacao%202" target="_blank">
+              <img class="icon" src="imagens/icon-oop.png" alt="Icon PROGRAMAÇÃO ORIENTADA A OBJETOS">
+            </a>
+            
+          </div>
+        </div>
+        <div class="msg-certificado">
+          <p>Veja minhas certificações e capacitações profissionais e intelectuais.</p>
+        </div>
+        <p><a class="btn btn-primary" href="./portfolio.html"><b>VER MAIS</b></a></p>
+      </section>
+      <!-- FIM DAS SEÇÕES -->
+
+      <!-- FOOTER -->
+      <footer>
+      	<p>Desenvolvido por <b>Darlley Brito</b>.</p>
+	    </footer>
+      <!-- FIM DO FOOTER -->
     </div>
 
     <script src="./js/jquery.min.js"></script>

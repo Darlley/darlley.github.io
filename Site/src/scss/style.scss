@@ -1,14 +1,24 @@
-// Importação do Bootstrap
+// Importações
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-$principal: #0b1217;
+@import "https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap";
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap";
+
+// inicio
+$principal: #090e18;
+
+html,body{
+    font-family: "Open Sans", Helvetica,Arial,sans-serif !important;
+}
 
 header{
-    background: url("../images/img1.jpg") no-repeat center;
+    background: url("../images/img1.jpg");
     background-size: cover;
     color:#fff;
     text-align:center;
+    height: 100vh;
+    margin-top: -3.5em;
 }
 
 // ESPAÇAMENTO
@@ -28,3 +38,13 @@ header{
 .bi:hover{
     color: $white;
 }
+
+// SCROLL LINKS
+.link-scroll{
+    text-decoration: none;
+    color: #8c8f92;
+}
+.link-scroll:hover{
+    color: $white;
+}
+

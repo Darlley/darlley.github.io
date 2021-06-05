@@ -5,6 +5,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap";
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -7482,11 +7484,16 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+html, body {
+  font-family: "Open Sans", Helvetica,Arial,sans-serif !important; }
+
 header {
-  background: url("../images/img1.jpg") no-repeat center;
+  background: url("../images/img1.jpg");
   background-size: cover;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  height: 100vh;
+  margin-top: -3.5em; }
 
 
 .container-fluid,
@@ -7501,7 +7508,14 @@ header {
   padding: .5em; }
 
 .bg-dark {
-  background-color: #0b1217 !important; }
+  background-color: #090e18 !important; }
 
 .bi:hover {
+  color: #fff; }
+
+.link-scroll {
+  text-decoration: none;
+  color: #8c8f92; }
+
+.link-scroll:hover {
   color: #fff; }
