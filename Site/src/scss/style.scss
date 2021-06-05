@@ -2,6 +2,13 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+header{
+    background: url("../images/img1.jpg") no-repeat center;
+    background-size: cover;
+    color:#fff;
+    text-align:center;
+}
+
 // ESPAÇAMENTO
 .container-fluid{
     padding: 0px;
@@ -14,9 +21,5 @@
 
 // ICONS
 .bi:hover{
-    color: $bg-dark;
-}
-
-.active{
-    background-color: $gray-400 !important;
+    color: $white;
 }

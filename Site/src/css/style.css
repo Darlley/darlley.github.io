@@ -7482,8 +7482,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.bg-dark {
-  background-color: #000 !important; }
+header {
+  background: url("../images/img1.jpg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center; }
 
 
 .container-fluid,
@@ -7498,8 +7501,4 @@ textarea.form-control-lg {
   padding: .5em; }
 
 .bi:hover {
-  color: #fff; }
-
-.dropdown-item {
-  background-color: #000;
   color: #fff; }

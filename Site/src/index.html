@@ -16,62 +16,80 @@
     
     <div class="container-fluid">
 
+      <!-- MENU -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="bi-code-slash"></i> Darlley Brito</i></a>
-          
+          <a class="navbar-brand" href="#">
+            <i class="bi-code-slash"></i> Darlley Brito</i>
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="bi-stack"></span>
           </button>
-          
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Pages
                 </a>
-                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">About</a></li>
                   <li><a class="dropdown-item" href="#">Certifications</a></li>
                   <li><a class="dropdown-item" href="#">Professional experiences</a></li>
                   <li><a class="dropdown-item" href="#">Blog</a></li>
                   <li><a class="dropdown-item" href="#">Contact</a></li>
                   <li><h6 class="dropdown-header">Links externos</h6></li>
-                  <li><a class="dropdown-item active" href="#">GitHub <i class="bi-arrow-right-short"></i></a></li>
-                  <li><a class="dropdown-item active" href="#">Code <i class="bi-arrow-right-short"></i></a></li>
+                  <li><a class="dropdown-item" href="https://linktr.ee/darlleybbf"><i class="bi-pin-angle"></i> Philosophy & Thology</i></a></li>
+                  <li><a class="dropdown-item" href="https://darlleybrito.medium.com/"><i class="bi-text-indent-left"></i> Medium</i></a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi-github"></i> GitHub</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi-github"> </i> Code</i></a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Personal notes</i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><h6 class="dropdown-header">Notion</h6></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi-box"></i> Cursos de Desenvolvimento Web</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi-book"></i> Diálogos platonicos</i></a></li>
+                  <li><h6 class="dropdown-header">Evernote</h6></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi-bookmark-check"></i> Leitura ordenada</a></li>
+                </ul>
               </li>
-              <li class="nav-item disabled"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
-              <li class="nav-item disabled"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-instagram"></i> Instagram</a></li>
-              <li class="nav-item disabled"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-facebook"></i> Facebook</a></li>
-              <li class="nav-item disabled"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-twitter"></i> Twitter</a></li>
+              <li class="nav-item disabled"><a class="nav-link" href="https://wa.me/+5567993328678?text=Olá! Vim pelo link em seu portfólio." target="_blank" tabindex="-1" aria-disabled="true"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+              <li class="nav-item disabled"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-instagram" target="_blank"></i> Instagram</a></li>
+              <li class="nav-item disabled"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-facebook" target="_blank"></i> Facebook</a></li>
+              <li class="nav-item disabled"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-twitter" target="_blank"></i> Twitter</a></li>
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> <!-- FIM DO MENU -->
 
-      <!--   <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Desenvolvimento Web</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+      <!-- CABEÇALHO -->
+      <header class="container-fluid">
+        <div id="menu">
+          <div class="msg-boasvindas" data-anime="2600">
+            <h1>Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Darlley e a sua visita ou parceria é muito importante para mim!</h1>
+          </div>
         </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav> -->
+
+        <script>
+          function typeWriter(elemento){
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+              setTimeout(() => elemento.innerHTML += letra, 75 * i)
+            });
+          };
+          const titulo = document.querySelector('h1');
+          typeWriter(titulo);
+        </script> 
+      </header> <!-- CABEÇALHO -->
+
     </div>
 
     <script src="./js/jquery.min.js"></script>
