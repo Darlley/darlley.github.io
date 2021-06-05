@@ -7500,5 +7500,8 @@ header {
 .navbar {
   padding: .5em; }
 
+.bg-dark {
+  background-color: #0b1217 !important; }
+
 .bi:hover {
   color: #fff; }
