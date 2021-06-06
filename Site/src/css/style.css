@@ -7484,16 +7484,39 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-html, body {
-  font-family: "Open Sans", Helvetica,Arial,sans-serif !important; }
+#servicos {
+  background-color: #1e1e2a; }
 
-header {
-  background: url("../images/img1.jpg");
+#portfolio {
+  background-color: #111429; }
+
+.chamada {
+  background-image: url("../images/img1.jpg");
+  background-attachment: fixed;
   background-size: cover;
   color: #fff;
+  margin-top: -3.5em; }
+
+.chamada img {
+  width: 15em;
+  border-radius: 50%; }
+
+.mensagem {
+  padding: 5em; }
+
+.mensagem h1, .mensagem .h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Ubuntu Mono"; }
+
+html, body {
+  font-family: "Open Sans", Helvetica,Arial,sans-serif !important;
+  color: #fff; }
+
+header, section {
   text-align: center;
   height: 100vh;
-  margin-top: -3.5em; }
+  padding: 20vh 2em 0 2em; }
 
 
 .container-fluid,
@@ -7514,8 +7537,8 @@ header {
   color: #fff; }
 
 .link-scroll {
-  text-decoration: none;
-  color: #8c8f92; }
+  color: #adb5bd;
+  background-color: #090e184f; }
 
 .link-scroll:hover {
   color: #fff; }

@@ -1,6 +1,7 @@
 // Importações
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./home";
 
 @import "https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap";
 @import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap";
@@ -10,15 +11,12 @@ $principal: #090e18;
 
 html,body{
     font-family: "Open Sans", Helvetica,Arial,sans-serif !important;
+    color: $white;
 }
-
-header{
-    background: url("../images/img1.jpg");
-    background-size: cover;
-    color:#fff;
+header, section{
     text-align:center;
     height: 100vh;
-    margin-top: -3.5em;
+    padding: 20vh 2em 0 2em;
 }
 
 // ESPAÇAMENTO
@@ -41,8 +39,8 @@ header{
 
 // SCROLL LINKS
 .link-scroll{
-    text-decoration: none;
-    color: #8c8f92;
+    color: $gray-500;
+    background-color: #090e184f;
 }
 .link-scroll:hover{
     color: $white;
