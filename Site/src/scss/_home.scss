@@ -1,9 +1,9 @@
 // HOME
-#servicos{
-    background-color: #1e1e2a;
+#projetos{
+    background-color: #4059AD; //111429;
 }
-#portfolio{
-    background-color: #111429;
+#habilidades{
+    background-color: #6B9AC4; //1f1f38;
 }
 
 .chamada{
@@ -14,16 +14,34 @@
     margin-top: -3.5em;
 }
 .chamada img{
-    width: 15em;
+    width: 180px;
     border-radius: 50%;
 }
 .mensagem{
-    padding: 5em;
+    padding: 2em;
 }
 .mensagem h1{
-    font-size: 25px;
+    font-size: 2em;
     font-weight: 700;
     font-family: "Ubuntu Mono";
 }
 
 
+// PROJETOS
+.projetos-mensagem{
+    padding: 1em 2em;
+}
+
+// HABILIDADES
+#habilidades h2 {
+    padding-bottom: 1em;
+}
+#habilidades img {
+    width: 35px;
+}
+#habilidades .btn{
+    margin-top: 2em;
+}
+.habilidades-mensagem {
+    padding: 0 2em 2em 2em;
+}

@@ -10,13 +10,13 @@
 $principal: #090e18;
 
 html,body{
-    font-family: "Open Sans", Helvetica,Arial,sans-serif !important;
+    font-family: "Ubuntu Mono", "Open Sans", Helvetica,Arial,sans-serif !important;
     color: $white;
 }
 header, section{
     text-align:center;
     height: 100vh;
-    padding: 20vh 2em 0 2em;
+    padding: 25vh 2em 0 2em;
 }
 
 // ESPAÇAMENTO
@@ -39,10 +39,20 @@ header, section{
 
 // SCROLL LINKS
 .link-scroll{
-    color: $gray-500;
+    color: $gray-400;
     background-color: #090e184f;
 }
 .link-scroll:hover{
     color: $white;
 }
 
+
+footer{
+    margin-bottom: -1em;
+    padding: 1em;
+}
+footer > p{
+    text-align: center;
+    color: $black;
+    margin: 0 !important;
+}

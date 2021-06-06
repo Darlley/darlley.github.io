@@ -17,7 +17,7 @@
     <div class="container-fluid">
 
       <!-- MENU OK -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="topo">
         <div class="container">
           <a class="navbar-brand" href="./">
             <i class="bi-code-slash"></i> Darlley Brito</i>
@@ -43,7 +43,7 @@
                   <li><a class="dropdown-item disabled" href="blog.html">Blog</a></li>
                   <li><a class="dropdown-item disabled" href="contato.html">Contact</a></li>
                   <li><h6 class="dropdown-header">External links</h6></li>
-                  <li><a class="dropdown-item" href="https://linktr.ee/darlleybbf" target="_blank"><i class="bi-pin-angle"></i> Philosophy & Thology</i></a></li>
+                  <li><a class="dropdown-item" href="https://linktr.ee/darlleybbf" target="_blank"><i class="bi-pin-angle"></i> Philosophy & Theology</i></a></li>
                   <li><a class="dropdown-item" href="https://darlleybrito.medium.com/" target="_blank"><i class="bi-text-indent-left"></i> Medium</i></a></li>
                   <li><a class="dropdown-item" href="https://github.com/Darlley/" target="_blank"><i class="bi-github"></i> GitHub</a></li>
                   <li><a class="dropdown-item" href="https://github.com/Darlley/darlley.github.io" target="_blank"><i class="bi-github"> </i> Code</i></a></li>
@@ -73,25 +73,29 @@
           </div>
           
         </div>
-      </nav> <!-- FIM DO MENU -->
-      <ul class="nav justify-content-end roundaded">
+      </nav>
+      <ul class="nav justify-content-end sticky-top">
         <li class="nav-item">
-          <a class="link-scroll nav-link"  aria-current="page" href="#servicos">Projetos <i class="bi bi-arrow-down-short"></i></a>
+          <a class="link-scroll nav-link" href="#topo">Topo <i class="bi bi-arrow-down-short"></i></a>
         </li>
         <li class="nav-item">
-          <a class="link-scroll nav-link" href="#portfolio">Habilidades <i class="bi bi-arrow-down-short"></i></a>
+          <a class="link-scroll nav-link"  aria-current="page" href="#projetos">Projetos <i class="bi bi-arrow-down-short"></i></a>
         </li>
-      </ul>
+        <li class="nav-item">
+          <a class="link-scroll nav-link" href="#habilidades">Habilidades <i class="bi bi-arrow-down-short"></i></a>
+        </li>
+      </ul> <!-- FIM DO MENU -->
 
       <!-- CABEÇALHO -->
       <header class="chamada">
         <img src="images/perfil.jpg">
 
         <div class="mensagem">
-          <h1 class="">Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Darlley e a sua visita ou parceria é muito importante para mim!</h1>
+          <h2 class="">Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Darlley e a sua visita ou parceria é muito importante para mim!</h2>
         </div>
       </header>
       <script>
+        // EFEITO MÁQUINA DE DIGITAR
         function typeWriter(elemento){
           const textoArray = elemento.innerHTML.split('');
           elemento.innerHTML = '';
@@ -99,64 +103,101 @@
             setTimeout(() => elemento.innerHTML += letra, 75 * i)
           });
         };
-        const titulo = document.querySelector('h1');
+        const titulo = document.querySelector('h2');
         typeWriter(titulo);
       </script>
       <!-- FIM DO CABEÇALHO -->
 
       <!-- SEÇÕES DO SITE -->
-      <section id="servicos">
+
+      <!-- SEÇÃO DE SERVIÇOS -->
+      <section id="projetos">
         <h2>O QUE JA FIZ</h2>
-          <a href="https://github.com/Darlley" target="_blank"><img src="https://img.icons8.com/clouds/2x/github.png" alt="configu rações"></a>
-        <p>Veja também o <i>desenvolvimento</i> de meus trabalhos em meus repositórios clicando sobre a imagem.</p>
-        <p style="padding: 1em;"><a class="btn btn-primary" href="./servicos.html"><b>VER MAIS</b></a></p>
+        <a href="https://github.com/Darlley" target="_blank">
+          <img src="https://img.icons8.com/clouds/2x/github.png" alt="configurações">
+        </a>
+        <p class="projetos-mensagem">Clique no botão para ver os meus projetos ou clique sobre a imagem para ir ao meu repositório para ver o <i></i>desenvolvimento</i> de meus projetos nos repositórios (clicando sobre a imagem).</p>
+        <p><a class="btn btn-outline-light" href="./servicos.html"><b>VER MAIS</b></a></p>
         <div class="divisor-black"></div>
       </section>
+      <!-- FIM DA SEÇÃO DE SERVIÇOS -->
         
-      <section id="portfolio">
+      <!-- SEÇÃO DE HABILIDADES -->
+      <section id="habilidades">
         <h2>O QUE SEI FAZER</h2>
+
+        <p class="habilidades-mensagem">Veja minhas certificações e capacitações profissionais e intelectuais.</p>
+
         <div class="container">
-          <div class="box-icon">
-            <a href="https://darlley.github.io/Frontend/" target="_blank">
-              <img class="icon" src="images/icon-html.png" alt="Icon HTML">
-            </a>
-            <a href="https://darlley.github.io/Frontend/" target="_blank">
-              <img class="icon" src="images/icon-css.png" alt="Icon CSS">
-            </a>
-            <a href="https://darlley.github.io/Frontend/" target="_blank">
-              <img class="icon" src="images/icon-bstrap.png" alt="Icon BOOTSTRAP">
-            </a>
-          </div>
-          <div class="box-icon">
-            <a href="https://darlley.github.io/JavaScript/" target="_blank">
-              <img class="icon" src="images/icon-jswhite.png" alt="Icon JAVASCRIPT">
-            </a>
-            <img class="icon" src="images/icon-php.png" alt="Icon PHP">
-            <img class="icon" src="images/icon-wp.png" alt="Icon WORDPRESS">
-          </div>
-          <div  class="box-icon">
-            <a href="https://darlley.github.io/Java/" target="_blank">
-              <img class="icon" src="images/icon-java.png" alt="Icon JAVA">
-            </a>
-            <a href="https://github.com/Darlley/Java/tree/master/Disciplina%20de%20Paradigmas%20de%20Programa%C3%A7%C3%A3o" target="_blank">
-              <img class="icon" src="images/icon-mvc.png" alt="Icon MODEL VIEW CONTROLLER">
-            </a>
-            <a href="https://github.com/Darlley/Java/tree/master/Disciplina%20de%20Programacao%202" target="_blank">
-              <img class="icon" src="images/icon-oop.png" alt="Icon PROGRAMAÇÃO ORIENTADA A OBJETOS">
-            </a>
-            
+          <div class="row row-cols-5 row-cols-lg-5 g-2">
+            <div class="col"></div>
+
+            <div class="col"> <!-- HTML -->
+              <div class="p-3">
+                <a href="https://github.com/Darlley/Frontend" target="_blank"><img class="icon" src="images/icon-html.png" alt="Icon HTML"></a>
+              </div>
+            </div>
+            <div class="col"> <!-- CSS -->
+              <div class="p-3">
+                <a href="https://github.com/Darlley/Frontend"><img class="icon" src="images/icon-css.png" alt="Icon CSS"></a>
+              </div>
+            </div>
+            <div class="col"> <!-- BOOTSTRAP -->
+              <div class="p-3">
+                <a href="https://github.com/Darlley/Frontend" target="_blank"><img class="icon" src="images/icon-bstrap.png" alt="Icon BOOTSTRAP"></a>
+              </div>
+            </div>
+
+            <div class="col"></div>
+            <div class="col"></div>
+
+            <div class="col npm"> <!-- NPM -->
+              <div class="p-3">
+                <img class="icon" src="images/npm.svg" alt="Icon NPM">
+              </div>
+            </div>
+            <div class="col"> <!-- WORDPRESS -->
+              <div class="p-3">
+                <img class="icon" src="images/icon-wp.png" alt="Icon WORDPRESS">
+              </div>
+            </div>
+            <div class="col"> <!-- SASS -->
+              <div class="p-3">
+                <img class="icon" src="images/sass.png" alt="Icon SASS"></a>
+              </div>
+            </div>
+
+            <div class="col"></div>
+            <div class="col"></div>
+
+            <div class="col"> <!-- JAVASCRIP --> 
+              <div class="p-3">
+                <a href="https://github.com/Darlley/JavaScript" target="_blank"><img class="icon" src="images/icon-jswhite.png" alt="Icon JAVASCRIPT"></a>
+              </div>
+            </div>
+            <div class="col"> <!-- PHP -->
+              <div class="p-3">
+                <img class="icon" src="images/icon-php.png" alt="Icon PHP">
+              </div>
+            </div>
+            <div class="col"> <!-- JAVA -->
+              <div class="p-3">
+                <a href="https://github.com/Darlley/Java" target="_blank"><img class="icon" src="images/icon-java.png" alt="Icon JAVA"></a>
+              </div>
+            </div>
+
+            <div class="col"></div>
+
           </div>
         </div>
-        <div class="msg-certificado">
-          <p>Veja minhas certificações e capacitações profissionais e intelectuais.</p>
-        </div>
-        <p><a class="btn btn-primary" href="./portfolio.html"><b>VER MAIS</b></a></p>
+
+        <p><a class="btn btn-outline-light" href="./portfolio.html"><b>VER MAIS</b></a></p>
       </section>
       <!-- FIM DAS SEÇÕES -->
 
       <!-- FOOTER -->
-      <footer>
-      	<p>Desenvolvido por <b>Darlley Brito</b>.</p>
+      <footer id="rodape">
+      	<p>Desenvolvido por <b class="bg-warning">Darlley Brito</b>.</p>
 	    </footer>
       <!-- FIM DO FOOTER -->
     </div>
