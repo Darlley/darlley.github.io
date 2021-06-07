@@ -1,13 +1,13 @@
 // HOME
-#projetos{
+/* #projetos{
     background-color: #4059AD; //111429;
 }
 #habilidades{
     background-color: #6B9AC4; //1f1f38;
-}
+} */
 
 .chamada{
-    background-image: url("../images/img1.jpg");
+    background-image: url("../images/header.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: $white;
@@ -26,6 +26,9 @@
     font-family: "Ubuntu Mono";
 }
 
+.secoes {
+    background-color: #fefaf9;
+}
 
 // PROJETOS
 .projetos-mensagem{

@@ -37,11 +37,12 @@
                   Pages
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item disabled" href="sobre.html">About</a></li>
-                  <li><a class="dropdown-item disabled" href="conhecimento.html">Certifications</a></li>
-                  <li><a class="dropdown-item disabled" href="experiencias.html">Professional experiences</a></li>
-                  <li><a class="dropdown-item disabled" href="blog.html">Blog</a></li>
-                  <li><a class="dropdown-item disabled" href="contato.html">Contact</a></li>
+                  <li><h6 class="dropdown-header">Página atual: Home </h6></li>
+                  <li><a class="dropdown-item" href="sobre.html">About</a></li>
+                  <li><a class="dropdown-item" href="conhecimento.html">Certifications</a></li>
+                  <li><a class="dropdown-item" href="experiencias.html">Professional experiences</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                  <li><a class="dropdown-item" href="contato.html">Contact</a></li>
                   <li><h6 class="dropdown-header">External links</h6></li>
                   <li><a class="dropdown-item" href="https://linktr.ee/darlleybbf" target="_blank"><i class="bi-pin-angle"></i> Philosophy & Theology</i></a></li>
                   <li><a class="dropdown-item" href="https://darlleybrito.medium.com/" target="_blank"><i class="bi-text-indent-left"></i> Medium</i></a></li>
@@ -84,6 +85,9 @@
         <li class="nav-item">
           <a class="link-scroll nav-link" href="#habilidades">Habilidades <i class="bi bi-arrow-down-short"></i></a>
         </li>
+        <li class="nav-item">
+          <a class="link-scroll nav-link" href="./sobre.html"><i class="bi-arrow-right-circle"></i></a>
+        </li>
       </ul> <!-- FIM DO MENU -->
 
       <!-- CABEÇALHO -->
@@ -105,101 +109,99 @@
         };
         const titulo = document.querySelector('h2');
         typeWriter(titulo);
-      </script>
-      <!-- FIM DO CABEÇALHO -->
+      </script> <!-- FIM DO CABEÇALHO -->
 
       <!-- SEÇÕES DO SITE -->
-
-      <!-- SEÇÃO DE SERVIÇOS -->
-      <section id="projetos">
-        <h2>O QUE JA FIZ</h2>
-        <a href="https://github.com/Darlley" target="_blank">
-          <img src="https://img.icons8.com/clouds/2x/github.png" alt="configurações">
-        </a>
-        <p class="projetos-mensagem">Clique no botão para ver os meus projetos ou clique sobre a imagem para ir ao meu repositório para ver o <i></i>desenvolvimento</i> de meus projetos nos repositórios (clicando sobre a imagem).</p>
-        <p><a class="btn btn-outline-light" href="./servicos.html"><b>VER MAIS</b></a></p>
-        <div class="divisor-black"></div>
-      </section>
-      <!-- FIM DA SEÇÃO DE SERVIÇOS -->
+      <div class="container secoes">
         
-      <!-- SEÇÃO DE HABILIDADES -->
-      <section id="habilidades">
-        <h2>O QUE SEI FAZER</h2>
+        <!-- SEÇÃO DE SERVIÇOS -->
+        <div class="row">
+          <section id="projetos" class="col-md-6 offset-md-3">
+            <h2>O QUE JA FIZ</h2>
+            <a href="https://github.com/Darlley" target="_blank">
+              <img src="https://img.icons8.com/clouds/2x/github.png" alt="configurações">
+            </a>
+            <p class="projetos-mensagem">Clique no botão para ver os meus projetos ou clique sobre a imagem para ir ao meu repositório para ver o <i></i>desenvolvimento</i> de meus projetos nos repositórios (clicando sobre a imagem).</p>
+            <p><a class="btn btn-outline-dark" href="./servicos.html"><b>VER MAIS</b></a></p>
+            
+          </section>
+        </div> <!-- FIM DA SEÇÃO DE SERVIÇOS -->
 
-        <p class="habilidades-mensagem">Veja minhas certificações e capacitações profissionais e intelectuais.</p>
+        <!-- SEÇÃO DE HABILIDADES -->
+        <div class="row">
+          <section id="habilidades" class="col-md-6 offset-md-3">
+            <h2>O QUE SEI FAZER</h2>
+            <p class="habilidades-mensagem">Veja minhas certificações e capacitações profissionais e intelectuais.</p>
 
-        <div class="container">
-          <div class="row row-cols-5 row-cols-lg-5 g-2">
-            <div class="col"></div>
+            <div class="container">
+              <div class="row justify-content-center">
 
-            <div class="col"> <!-- HTML -->
-              <div class="p-3">
-                <a href="https://github.com/Darlley/Frontend" target="_blank"><img class="icon" src="images/icon-html.png" alt="Icon HTML"></a>
+                <div class="col-3"> <!-- HTML -->
+                    <div class="p-3">
+                      <a href="https://github.com/Darlley/Frontend" target="_blank"><img class="icon" src="images/icon-html.png" alt="Icon HTML"></a>
+                    </div>
+                </div>
+                <div class="col-3"> <!-- CSS -->
+                  <div class="p-3">
+                    <a href="https://github.com/Darlley/Frontend"><img class="icon" src="images/icon-css.png" alt="Icon CSS"></a>
+                  </div>
+                </div>
+                <div class="col-3"> <!-- BOOTSTRAP -->
+                  <div class="p-3">
+                    <a href="https://github.com/Darlley/Frontend" target="_blank"><img class="icon" src="images/icon-bootstrap.png" alt="Icon BOOTSTRAP"></a>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col"> <!-- CSS -->
-              <div class="p-3">
-                <a href="https://github.com/Darlley/Frontend"><img class="icon" src="images/icon-css.png" alt="Icon CSS"></a>
+
+              <div class="row justify-content-center">
+                <div class="col-3"> <!-- NPM -->
+                  <div class="p-3">
+                    <img class="icon" src="images/icon-npm.svg" alt="Icon NPM">
+                  </div>
+                </div>
+                <div class="col-3"> <!-- WORDPRESS -->
+                  <div class="p-3">
+                    <img class="icon" src="images/icon-wp.png" alt="Icon WORDPRESS">
+                  </div>
+                </div>
+                <div class="col-3"> <!-- SASS -->
+                  <div class="p-3">
+                    <img class="icon" src="images/icon-sass.png" alt="Icon SASS"></a>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col"> <!-- BOOTSTRAP -->
-              <div class="p-3">
-                <a href="https://github.com/Darlley/Frontend" target="_blank"><img class="icon" src="images/icon-bstrap.png" alt="Icon BOOTSTRAP"></a>
+
+              <div class="row justify-content-center">
+                <div class="col-3"> <!-- JAVASCRIP --> 
+                  <div class="p-3">
+                    <a href="https://github.com/Darlley/JavaScript" target="_blank"><img class="icon" src="images/icon-jswhite.png" alt="Icon JAVASCRIPT"></a>
+                  </div>
+                </div>
+                <div class="col-3"> <!-- PHP -->
+                  <div class="p-3">
+                    <img class="icon" src="images/icon-php.png" alt="Icon PHP">
+                  </div>
+                </div>
+                <div class="col-3"> <!-- JAVA -->
+                  <div class="p-3">
+                    <a href="https://github.com/Darlley/Java" target="_blank"><img class="icon" src="images/icon-java.png" alt="Icon JAVA"></a>
+                  </div>
+                </div>
               </div>
+
+              <p><a class="btn btn-outline-dark" href=".conhecimento.html"><b>VER MAIS</b></a></p>
+              
             </div>
 
-            <div class="col"></div>
-            <div class="col"></div>
+          </section>
+        </div> <!-- FIM DA SEÇÃO DE HABILIDADES -->
 
-            <div class="col npm"> <!-- NPM -->
-              <div class="p-3">
-                <img class="icon" src="images/npm.svg" alt="Icon NPM">
-              </div>
-            </div>
-            <div class="col"> <!-- WORDPRESS -->
-              <div class="p-3">
-                <img class="icon" src="images/icon-wp.png" alt="Icon WORDPRESS">
-              </div>
-            </div>
-            <div class="col"> <!-- SASS -->
-              <div class="p-3">
-                <img class="icon" src="images/sass.png" alt="Icon SASS"></a>
-              </div>
-            </div>
-
-            <div class="col"></div>
-            <div class="col"></div>
-
-            <div class="col"> <!-- JAVASCRIP --> 
-              <div class="p-3">
-                <a href="https://github.com/Darlley/JavaScript" target="_blank"><img class="icon" src="images/icon-jswhite.png" alt="Icon JAVASCRIPT"></a>
-              </div>
-            </div>
-            <div class="col"> <!-- PHP -->
-              <div class="p-3">
-                <img class="icon" src="images/icon-php.png" alt="Icon PHP">
-              </div>
-            </div>
-            <div class="col"> <!-- JAVA -->
-              <div class="p-3">
-                <a href="https://github.com/Darlley/Java" target="_blank"><img class="icon" src="images/icon-java.png" alt="Icon JAVA"></a>
-              </div>
-            </div>
-
-            <div class="col"></div>
-
-          </div>
-        </div>
-
-        <p><a class="btn btn-outline-light" href="./portfolio.html"><b>VER MAIS</b></a></p>
-      </section>
-      <!-- FIM DAS SEÇÕES -->
+      </div> <!-- FIM DAS SEÇÕES -->
 
       <!-- FOOTER -->
       <footer id="rodape">
       	<p>Desenvolvido por <b class="bg-warning">Darlley Brito</b>.</p>
-	    </footer>
-      <!-- FIM DO FOOTER -->
+	    </footer>  <!-- FIM DO FOOTER -->
     </div>
 
     <script src="./js/jquery.min.js"></script>

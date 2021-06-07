@@ -2,18 +2,18 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./home";
+@import "./about";
 
 @import "https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap";
-@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap";
 
 // inicio
 $principal: #090e18;
 
 html,body{
     font-family: "Ubuntu Mono", "Open Sans", Helvetica,Arial,sans-serif !important;
-    color: $white;
+    color: $black;
 }
-header, section{
+header, #habilidades, #projetos {
     text-align:center;
     height: 100vh;
     padding: 25vh 2em 0 2em;
@@ -53,6 +53,5 @@ footer{
 }
 footer > p{
     text-align: center;
-    color: $black;
     margin: 0 !important;
 }
