@@ -48,10 +48,25 @@ header, #habilidades, #projetos {
 
 
 footer{
+    background: linear-gradient(180deg, #ffffff 0%, #cecece 100%);
     margin-bottom: -1em;
     padding: 1em;
 }
 footer > p{
     text-align: center;
     margin: 0 !important;
+}
+
+@media (max-width: 992px) {
+    .navbar{
+        position:fixed;
+        right:0;
+        bottom:0;
+        left:0;
+        z-index:1030 
+    } // Para o menu mobile fixar no bottom
+    footer{
+        margin-bottom: 3.5rem;
+        background: linear-gradient(180deg, #ffffff 0%, #cecece 100%);
+    }
 }
