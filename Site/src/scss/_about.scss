@@ -1,19 +1,31 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap";
+$orange: #ffc107;
 
 #sobre {
-    font-family: "Open Sans Condensed";
+    margin-top: 2em;
+    font-family: 'Spectral', serif;
 }
 #sobre h1 {
     text-align: center;
 }
+
 .resumo {
     margin: 2em 2em;
     padding: 2em;
-    border: 3px solid #ffc107 ;;
+    font-family: 'Ubuntu Mono';
+    border: 3px solid $orange;
 }
+b, .bi-lightbulb{
+    color: $orange;
+}
+
 .conteudo{
     margin: 1em 2em;
 }
+blockquote{
+    background-color: #ffc1072a;
+    padding-left: 2em;
+    border-left: 3px solid $orange;
+}
 #sobre img{
-    width: 450px;
+    width: 100%;
 }
