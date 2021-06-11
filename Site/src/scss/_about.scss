@@ -14,10 +14,10 @@ $orange: #ffc107;
     font-family: 'Ubuntu Mono';
     border: 3px solid $orange;
 }
-b, .bi-lightbulb{
+
+.bi-lightbulb, .resumo > b, .conteudo > b, .conteudo > ol > li > a{
     color: $orange;
 }
-
 .conteudo{
     margin: 1em 2em;
 }
@@ -28,4 +28,12 @@ blockquote{
 }
 #sobre img{
     width: 100%;
+    margin-bottom: 1em;
+}
+.conteudo ol li a{
+    text-decoration: none;
+}
+.conteudo ol li a:hover{
+    background-color: $orange;
+    color: $black;
 }
