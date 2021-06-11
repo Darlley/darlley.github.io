@@ -18,7 +18,7 @@ html,body{
 header, #habilidades, #projetos {
     text-align:center;
     height: 100vh;
-    padding: 25vh 2em 0 2em;
+    padding: 20vh 2em 0 2em;
 }
 
 // ESPAÇAMENTO
@@ -40,6 +40,9 @@ header, #habilidades, #projetos {
 }
 
 // SCROLL LINKS
+#scroll > li> .nav-link{
+    padding: .5rem .5rem;
+}
 .link-scroll{
     color: $gray-400;
     background-color: #090e184f;
@@ -60,6 +63,9 @@ footer > p{
 }
 
 @media (max-width: 992px) {
+    header, #habilidades, #projetos {
+        padding: 15vh 2em 0 2em;
+    }
     .navbar{
         position:fixed;
         right:0;
