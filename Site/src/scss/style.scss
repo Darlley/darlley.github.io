@@ -3,17 +3,19 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./home";
 @import "./about";
+@import "./experiences";
 
 @import "https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap";
 
 // inicio
-$principal: #090e18;
+$principal: #090e20;
 
 
 html,body{
     font-family: 'Ubuntu Mono', 'Spectral', Helvetica, sans-serif !important;
-    color: $black;
+    color: $principal;
+    height: 100%;
 }
 header, #habilidades, #projetos {
     text-align:center;
@@ -45,19 +47,30 @@ header, #habilidades, #projetos {
 }
 .link-scroll{
     color: $gray-400;
-    background-color: #090e184f;
+    background-color: #090e18a8;
 }
 .link-scroll:hover{
     color: $white;
 }
 
+// Navegação breadcrumb
+.breadcrumb-item > a{
+    color: $orange;
+    text-decoration: none;
+}
+.breadcrumb-item > a:hover{
+    background-color: $orange;
+    color: #090e20;
+}
 
-footer{
-    background: linear-gradient(180deg, #ffffff 0%, #cecece 100%);
+
+// Rodapé
+#rodape{
+    font-size: 14px;
     margin-bottom: -1em;
     padding: 1em;
 }
-footer > p{
+#rodape > p{
     text-align: center;
     margin: 0 !important;
 }
@@ -65,16 +78,16 @@ footer > p{
 @media (max-width: 992px) {
     header, #habilidades, #projetos {
         padding: 15vh 2em 0 2em;
+        height: 100vh;
     }
     .navbar{
         position:fixed;
         right:0;
         bottom:0;
         left:0;
-        z-index:1030 
+        z-index:1030;
     } // Para o menu mobile fixar no bottom
-    footer{
+    #footer{
         margin-bottom: 3.5rem;
-        background: linear-gradient(180deg, #ffffff 0%, #cecece 100%);
     }
 }
