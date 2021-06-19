@@ -7,6 +7,9 @@ $orange: #ffc107;
 #sobre h1 {
     text-align: center;
 }
+#sobre p{
+    text-align: justify;
+}
 
 .resumo {
     margin: 2em 2em;
@@ -22,9 +25,12 @@ $orange: #ffc107;
     margin: 1em 2em;
 }
 blockquote{
-    background-color: #ffc1072a;
-    padding-left: 2em;
+    background-color: #e8e8e886;
+    padding: 1em 3em 1em 2em;
     border-left: 3px solid $orange;
+}
+blockquote p{
+    margin: 0;
 }
 #sobre img{
     width: 100%;
