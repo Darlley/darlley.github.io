@@ -40,6 +40,9 @@ header, #habilidades, #projetos {
 .bi:hover{
     color: $white;
 }
+.pdf a:hover{
+    color: #ff4545 !important;
+}
 
 // SCROLL LINKS
 #scroll > li> .nav-link{
