@@ -37,9 +37,8 @@ header{
     text-align: center;
 }
 img{
-    margin: 2.5vh auto;
-    width: 95px;
-    height: 10vh;
+    margin: 2vh auto;
+    width: 90px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -121,6 +120,9 @@ main p{
   }
 
 @media (min-width: 992px) {
+    img{
+        width: 110px;
+    }
     #lista{
         width: 40%;
     }
