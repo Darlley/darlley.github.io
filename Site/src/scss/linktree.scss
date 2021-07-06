@@ -1,0 +1,130 @@
+
+@import "https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background: #ffffff;
+ color: #000000;
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+ font-size: 16px;
+ font-family: sans-serif;
+}
+
+button {
+ cursor: pointer;
+}
+
+a, h1, h2{
+    color: #fff;
+    font-family: Spectral;
+}
+body{
+    background: linear-gradient(to top, #9d51a1, #17317d, #081d5a) fixed;
+}
+header{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+}
+img{
+    margin: 2.5vh auto;
+    width: 95px;
+    height: 10vh;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: is-rotate 4s infinite;
+    -webkit-animation: is-rotate 4s infinite;
+    animation-direction: alternate;
+}
+@keyframes is-rotate {
+    to {
+      transform: rotate(25deg);
+      -webkit-transform: rotate(25deg);
+      -moz-transform: rotate(25deg);
+      -ms-transform: rotate(25deg);
+      -o-transform: rotate(25deg);
+    }
+}
+
+main{
+    margin-bottom: 20px;
+}
+main p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+#lista{
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #9d51a14b;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 2px 15px #081d5a;
+}
+
+.itens{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.itens i{
+    margin: 0 15px;
+}
+#lista a{
+    border: 2px solid #fff;
+    padding: 15px;
+    width: 95%;
+    text-decoration: none;
+    font-family: 'Ubuntu Mono';
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#lista a:hover{
+    background-color: #fff;
+    color: #081d5a;
+    font-weight: bold;
+    transition-duration: 1.5s;
+    animation: slide-right 1s both;
+    -webkit-animation: slide-right 1s both;
+}
+@keyframes slide-right {
+    100% {
+      transform: translateX(15px);
+      -webkit-transform: translateX(15px);
+      -moz-transform: translateX(15px);
+      -ms-transform: translateX(15px);
+      -o-transform: translateX(15px);
+}
+  }
+
+@media (min-width: 992px) {
+    #lista{
+        width: 40%;
+    }
+    main p{
+        margin-bottom: 2%;
+    }
+}
