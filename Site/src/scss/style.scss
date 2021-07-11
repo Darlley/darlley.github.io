@@ -41,7 +41,7 @@ header, #habilidades, #projetos {
     color: $white;
 }
 .pdf a:hover{
-    color: #ff4545 !important;
+    color: #ffc107 !important;
 }
 
 // SCROLL LINKS
@@ -54,6 +54,9 @@ header, #habilidades, #projetos {
 }
 .link-scroll:hover{
     color: $white;
+}
+.justify-content-end {
+    z-index: 0;
 }
 
 // Navegação breadcrumb
