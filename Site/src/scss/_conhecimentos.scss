@@ -1,0 +1,80 @@
+#conhecimentos{
+
+    padding: 2em;
+
+    a{
+        text-decoration: none;
+        color: $orange;
+        padding: 0;
+    }
+    a:hover{
+        background-color: $orange;
+        color: #fff;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .conhecimentos-curriculo{
+        font-family: 'Spectral', serif;
+        h1{
+            text-align: left;
+            font-size: 1.5em;
+            margin: 40px 0 5px 0;
+        }
+        h2{
+            font-size: 1.5;
+        }
+        h1, h2, h3{
+            margin-top: 25px;
+            font-weight: bold;
+        }
+        p, li{
+            font-size: 1.2em;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .conhecimentos-apresentacao{
+            margin: 10px 0;
+            font-family: 'Spectral', serif;
+
+            ul {
+                margin: 10px 0;
+                li{
+                    list-style: none;
+                }
+                i{
+                    color: $orange;
+                }
+            }
+            .separador{
+                width: 50px !important;
+                display: inline-block;
+                margin: 0 0 0 25px;
+                align-items: center;
+                hr{
+                    margin: 3px 0;
+                    padding: 0;    
+                }
+            }
+            p a{
+                text-decoration: underline;
+            }
+            p span {
+                color: $orange;
+            }
+        }
+    }
+
+    .conhecimentos-certificados{
+        background-color: #000;
+        img{
+            padding: 5px;
+            width: 100%;
+        }
+    }
+
+}

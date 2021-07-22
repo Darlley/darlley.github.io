@@ -4,13 +4,13 @@
 @import "./home";
 @import "./about";
 @import "./experiences";
+@import "./conhecimentos";
 
 @import "https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap";
 
 // inicio
 $principal: #090e20;
-
 
 html,body{
     font-family: 'Ubuntu Mono', 'Spectral', Helvetica, sans-serif !important;
@@ -73,7 +73,7 @@ header, #habilidades, #projetos {
 // Rodapé
 #rodape{
     font-size: 14px;
-    margin-bottom: -1em;
+    margin-bottom: -10em;
     padding: 1em;
 }
 #rodape > p{
@@ -94,6 +94,7 @@ header, #habilidades, #projetos {
         z-index:1030;
     } // Para o menu mobile fixar no bottom
     #footer{
-        margin-bottom: 3.5rem;
+        left:0;
+        border: 1px solid red;
     }
 }
