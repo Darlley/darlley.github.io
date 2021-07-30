@@ -43,3 +43,65 @@ blockquote p{
     background-color: $orange;
     color: $black;
 }
+
+// T A B E L A
+
+.table-container{
+    table{
+        border: 2px solid #ef8f00;
+        width: 90%;
+        background: linear-gradient(to bottom right, #0D1317, #28353c);
+        margin: auto;
+        border-radius: 5px;
+        tr{
+            border-radius: 5px;
+        }
+        th, td{
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+        thead{
+            background:#ffa012fa;
+
+            th{
+                font-weight: bold;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+            }
+        }
+        tbody{
+            tr{
+                border: 1px solid #ffffff1e;
+                td{
+                    &:first-child{
+                        font-weight: bold;
+                        background-color: #ffa012fa;
+                    }
+                
+                }
+
+                &:nth-child(odd){
+                    background: linear-gradient(to bottom right, #28353c, #0D1317);
+                }
+            }
+        }
+        tfoot{
+            tr{
+                td{
+                    font-weight: bold;
+
+                    &:first-child{
+                        text-transform: uppercase;
+                        background-color: #ffa012fa;
+                    }
+
+                    img{
+                        height: 30px;
+                    }
+                }
+
+            }
+        }
+    }
+}
