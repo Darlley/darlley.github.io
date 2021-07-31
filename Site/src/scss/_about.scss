@@ -47,6 +47,7 @@ blockquote p{
 // T A B E L A
 
 .table-container{
+    overflow-x: auto;
     table{
         border: 2px solid #ef8f00;
         width: 90%;
@@ -81,9 +82,7 @@ blockquote p{
                 
                 }
 
-                &:nth-child(odd){
-                    background: linear-gradient(to bottom right, #28353c, #0D1317);
-                }
+                
             }
         }
         tfoot{
@@ -100,7 +99,6 @@ blockquote p{
                         height: 30px;
                     }
                 }
-
             }
         }
     }
