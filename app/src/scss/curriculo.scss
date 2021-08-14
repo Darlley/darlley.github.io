@@ -1,0 +1,8 @@
+.no-print{
+    display: none !important;
+}
+
+// Mostrar todos os links que começam com "http" entre parenteses "()"
+a[href*="http"]:after{
+    content: ' ('attr(href)') ' !important; 
+}

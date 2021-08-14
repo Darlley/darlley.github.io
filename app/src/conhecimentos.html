@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/curriculo.css" media="print">
 
     <title>GitHub Pages @Darlley</title>
 </head>
@@ -19,7 +20,7 @@
     <div class="container-fluid">
 
         <!-- MENU OK -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="no-print navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="./">
                     <i class="bi-code-slash"></i> Darlley Brito</i>
@@ -111,7 +112,7 @@
             </div>
         </nav>
 
-        <ul class="scroll nav justify-content-end sticky-top">
+        <ul class="no-print scroll nav justify-content-end sticky-top">
             <li class="nav-item">
                 <a class="link-scroll nav-link" href="./sobre.html"><i class="bi-arrow-left-circle"></i></a>
               </li>
@@ -126,7 +127,7 @@
         <!-- SEÇÕES DO SITE -->
         <div class="container">
 
-            <nav class="d-flex justify-content-center" aria-label="breadcrumb" id="breadcrumb">
+            <nav class="no-print d-flex justify-content-center" aria-label="breadcrumb" id="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="./">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Certifications</li>
@@ -136,7 +137,7 @@
             <div class="row justify-content-center">
                 <section class="col-lg-8" id="conhecimentos">
 
-                    <h1 class="d-flex justify-content-center">CONHECIMENTOS <br> E HABILIDADES</h1>
+                    <h1 class="no-print d-flex justify-content-center">CONHECIMENTOS <br> E HABILIDADES</h1>
 
                     <section class="conhecimentos-curriculo">
                         <h1>CURRÍCULO</h1>
@@ -198,7 +199,7 @@
                                 
                             <div class="container-apresentacao">
                                 <h3>Descrição das Habilidades</h3>
-                                <p>Tenho uma conta no <span>GitHub</span> (inclusive, <a href="/">este portfólio</a> esta hospedado nela) e sei fazer commits e inicializar repositórios utilizando o <span>Git</span>.
+                                <p>Tenho uma conta no <span>GitHub</span> (inclusive, <a href="https://darlley.github.io/">este portfólio</a> esta hospedado nela) e sei fazer commits e inicializar repositórios utilizando o <span>Git</span>.
                                 </p>
                                 <p>Sei utilizar e estruturar as tags semânticas do <span>HTML5</span>.</p>
                                 <p>Tenho conhecimento intermediário em <span>CSS3</span> (tenho mais facilidade para construir layouts com Flexbox, embora não tenha um conhecimento avançado nele). </p>
@@ -209,10 +210,10 @@
                             </div>
                         </div>
 
-                        <h2>Certificações</h2>
+                        <h2 class="no-print">Certificações</h2>
                     </section>
                     
-                    <section class="conhecimentos-certificados">
+                    <section class="no-print conhecimentos-certificados">
                         <img src="images/conhecimentos/certificacao-dio-bootcamphtml.jpg" alt="">
                         <img src="images/conhecimentos/certificacao-dio-introducaoacriacaodesites.jpg" alt="">
                         <img src="images/conhecimentos/certificacao-dio-git.jpg" alt="">
@@ -238,7 +239,7 @@
         </div> <!-- FIM DAS SEÇÕES DA PÁGINA -->
 
         <!-- FOOTER -->
-        <footer id="rodape">
+        <footer class="no-print" id="rodape">
             <p>Desenvolvido por <b class="bg-warning">Darlley Brito</b>.</p>
         </footer> <!-- FIM DO FOOTER -->
     </div>
